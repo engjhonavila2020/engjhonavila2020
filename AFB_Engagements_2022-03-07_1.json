@@ -1,0 +1,5228 @@
+{
+  "next_page": "https://api.salemove.com/engagements?end_date=2022-03-08+00%3A00%3A00+%2B0000&site_ids%5B%5D=28d7ca95-c2be-435b-a234-218b177ed615&start_date=2022-03-07+00%3A00%3A00+%2B0000&page=2&per_page=100&link=next",
+  "last_page": "https://api.salemove.com/engagements?end_date=2022-03-08+00%3A00%3A00+%2B0000&site_ids%5B%5D=28d7ca95-c2be-435b-a234-218b177ed615&start_date=2022-03-07+00%3A00%3A00+%2B0000&page=5&per_page=100&link=last",
+  "engagements": [
+    {
+      "id": "17495008-a0bf-4b33-a5f8-3d6a25d288df",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T23:48:41Z",
+      "visitor_name": "KIMMERLY EALUM",
+      "visitor_browser": "Chrome",
+      "visitor_device_type": "mobile",
+      "visitor_id": "526e4dc3-f117-42d5-bd56-59c1a51e4fc8",
+      "duration": 1459,
+      "queue_wait_time": 12,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/526e4dc3-f117-42d5-bd56-59c1a51e4fc8"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/17495008-a0bf-4b33-a5f8-3d6a25d288df/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/7aba08e6-1ba6-4d44-8bab-d9cbb89b532d"
+        },
+        {
+          "href": "https://api.salemove.com/operators/8472c1d0-2743-4b06-b4e6-a740c491ded6"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+          "name": "AFB Retail Service Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "38548e5f-2e81-4bd3-85be-354c2eb5620b",
+          "operator": { "id": "7aba08e6-1ba6-4d44-8bab-d9cbb89b532d" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T23:50:01Z",
+          "duration": 1390,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-08T00:13:11Z",
+          "end_reason": "visitor_hung_up",
+          "requested_at": "2022-03-07T23:49:51Z",
+          "request_type": "transfer",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "e041698c-5556-4d4f-89d0-7f2bd2604234",
+              "name": "AFB Retail Service #1 and #2"
+            }
+          ],
+          "queue_wait_time": 10,
+          "request_source": null,
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        },
+        {
+          "id": "8d887539-faad-4342-9cdf-b4388c4a1d74",
+          "operator": { "id": "8472c1d0-2743-4b06-b4e6-a740c491ded6" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T23:48:41Z",
+          "duration": 69,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T23:49:50Z",
+          "end_reason": "transferred",
+          "requested_at": "2022-03-07T23:48:41Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+              "name": "AFB Retail Service Chat Bot"
+            }
+          ],
+          "queue_wait_time": 2,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "00edf73d-e62c-484f-a619-e46bf65e80a4",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T23:37:58Z",
+      "visitor_name": "",
+      "visitor_browser": "Chrome",
+      "visitor_device_type": "mobile",
+      "visitor_id": "63146cdc-b3c8-4b6e-992f-7d167f8607ff",
+      "duration": 19,
+      "queue_wait_time": 2,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/63146cdc-b3c8-4b6e-992f-7d167f8607ff"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/00edf73d-e62c-484f-a619-e46bf65e80a4/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/a80e57a8-2412-406b-be89-cb3c9872500a"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "7e429764-d4c7-4390-82ca-3b397554fd3c",
+          "name": "AFB Retail Sales Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "6bc94ffc-7539-4f9e-ba55-7084f0adf471",
+          "operator": { "id": "a80e57a8-2412-406b-be89-cb3c9872500a" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T23:37:58Z",
+          "duration": 19,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T23:38:18Z",
+          "end_reason": "visitor_hung_up",
+          "requested_at": "2022-03-07T23:37:58Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "7e429764-d4c7-4390-82ca-3b397554fd3c",
+              "name": "AFB Retail Sales Chat Bot"
+            }
+          ],
+          "queue_wait_time": 2,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "0de186be-719a-4cbe-8a3b-388af7c91cc8",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T23:35:19Z",
+      "visitor_name": "",
+      "visitor_browser": "Safari",
+      "visitor_device_type": "mobile",
+      "visitor_id": "9c200770-6d03-45c8-965a-b7fe3cd31f4c",
+      "duration": 23,
+      "queue_wait_time": 2,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/9c200770-6d03-45c8-965a-b7fe3cd31f4c"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/0de186be-719a-4cbe-8a3b-388af7c91cc8/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/a80e57a8-2412-406b-be89-cb3c9872500a"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "7e429764-d4c7-4390-82ca-3b397554fd3c",
+          "name": "AFB Retail Sales Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "d6b46d7a-5b52-4646-8e7e-2866376090a9",
+          "operator": { "id": "a80e57a8-2412-406b-be89-cb3c9872500a" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T23:35:19Z",
+          "duration": 23,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T23:35:42Z",
+          "end_reason": "transferred",
+          "requested_at": "2022-03-07T23:35:19Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "7e429764-d4c7-4390-82ca-3b397554fd3c",
+              "name": "AFB Retail Sales Chat Bot"
+            }
+          ],
+          "queue_wait_time": 2,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "4b30cd6a-2f75-466e-853b-06cd9b034e5c",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T23:35:06Z",
+      "visitor_name": "CORRINE PETERSON",
+      "visitor_browser": "Safari",
+      "visitor_device_type": "mobile",
+      "visitor_id": "e0d60e42-8155-4fc9-97f6-3919fad91542",
+      "duration": 108,
+      "queue_wait_time": 1,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/e0d60e42-8155-4fc9-97f6-3919fad91542"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/4b30cd6a-2f75-466e-853b-06cd9b034e5c/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/8472c1d0-2743-4b06-b4e6-a740c491ded6"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+          "name": "AFB Retail Service Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "b9400bf7-fc62-43a2-a863-9249f4bb65b7",
+          "operator": { "id": "8472c1d0-2743-4b06-b4e6-a740c491ded6" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T23:35:06Z",
+          "duration": 108,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T23:36:54Z",
+          "end_reason": "visitor_hung_up",
+          "requested_at": "2022-03-07T23:35:06Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+              "name": "AFB Retail Service Chat Bot"
+            }
+          ],
+          "queue_wait_time": 1,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "f62941d0-63b8-4cca-af1d-08313629f88b",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T23:33:03Z",
+      "visitor_name": "JAMAL BRYANT",
+      "visitor_browser": "Safari",
+      "visitor_device_type": "mobile",
+      "visitor_id": "dd1ec549-b05b-44a7-955e-50ca84d50651",
+      "duration": 401,
+      "queue_wait_time": 5,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/dd1ec549-b05b-44a7-955e-50ca84d50651"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/f62941d0-63b8-4cca-af1d-08313629f88b/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/0c09cbf5-68bc-4a89-bed8-e890f862c4d2"
+        },
+        {
+          "href": "https://api.salemove.com/operators/8472c1d0-2743-4b06-b4e6-a740c491ded6"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+          "name": "AFB Retail Service Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "94915b6c-5d62-4eb2-8c6b-01c88bd38751",
+          "operator": { "id": "0c09cbf5-68bc-4a89-bed8-e890f862c4d2" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T23:33:28Z",
+          "duration": 381,
+          "used_cobrowsing": true,
+          "ended_at": "2022-03-07T23:39:49Z",
+          "end_reason": "visitor_hung_up",
+          "requested_at": "2022-03-07T23:33:24Z",
+          "request_type": "transfer",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "e041698c-5556-4d4f-89d0-7f2bd2604234",
+              "name": "AFB Retail Service #1 and #2"
+            }
+          ],
+          "queue_wait_time": 4,
+          "request_source": null,
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        },
+        {
+          "id": "242ed31a-22c9-438f-8f97-4f2288111f12",
+          "operator": { "id": "8472c1d0-2743-4b06-b4e6-a740c491ded6" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T23:33:03Z",
+          "duration": 20,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T23:33:23Z",
+          "end_reason": "transferred",
+          "requested_at": "2022-03-07T23:33:03Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+              "name": "AFB Retail Service Chat Bot"
+            }
+          ],
+          "queue_wait_time": 1,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": true,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "87f8f934-31ff-48cb-a065-58202901d809",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T23:31:02Z",
+      "visitor_name": "JAMAL BRYANT",
+      "visitor_browser": "Safari",
+      "visitor_device_type": "mobile",
+      "visitor_id": "dd1ec549-b05b-44a7-955e-50ca84d50651",
+      "duration": 51,
+      "queue_wait_time": 1,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/dd1ec549-b05b-44a7-955e-50ca84d50651"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/87f8f934-31ff-48cb-a065-58202901d809/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/8472c1d0-2743-4b06-b4e6-a740c491ded6"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+          "name": "AFB Retail Service Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "bfa6d0eb-6043-47bd-aadb-4121e6d8d8fa",
+          "operator": { "id": "8472c1d0-2743-4b06-b4e6-a740c491ded6" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T23:31:02Z",
+          "duration": 51,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T23:31:53Z",
+          "end_reason": "operator_hung_up",
+          "requested_at": "2022-03-07T23:31:02Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+              "name": "AFB Retail Service Chat Bot"
+            }
+          ],
+          "queue_wait_time": 1,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "683105ee-443c-4a73-a843-a09d226c2096",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T23:26:59Z",
+      "visitor_name": "AARON WIXON",
+      "visitor_browser": "Safari",
+      "visitor_device_type": "mobile",
+      "visitor_id": "354f1465-4439-4ccd-8031-71ce63a9b00d",
+      "duration": 70,
+      "queue_wait_time": 0,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/354f1465-4439-4ccd-8031-71ce63a9b00d"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/683105ee-443c-4a73-a843-a09d226c2096/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/8472c1d0-2743-4b06-b4e6-a740c491ded6"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+          "name": "AFB Retail Service Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "b585e331-7a14-4a74-9b22-b9b62bc5b681",
+          "operator": { "id": "8472c1d0-2743-4b06-b4e6-a740c491ded6" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T23:26:59Z",
+          "duration": 70,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T23:28:09Z",
+          "end_reason": "visitor_left",
+          "requested_at": "2022-03-07T23:26:59Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+              "name": "AFB Retail Service Chat Bot"
+            }
+          ],
+          "queue_wait_time": 0,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "e717e4a4-fa6f-41a9-8ece-cbd2ab09f183",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T23:26:54Z",
+      "visitor_name": "COREY MORGAN",
+      "visitor_browser": "Safari",
+      "visitor_device_type": "mobile",
+      "visitor_id": "bf0619a1-7d74-4f71-afcc-78babecf3a1d",
+      "duration": 176,
+      "queue_wait_time": 2,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/bf0619a1-7d74-4f71-afcc-78babecf3a1d"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/e717e4a4-fa6f-41a9-8ece-cbd2ab09f183/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/8472c1d0-2743-4b06-b4e6-a740c491ded6"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+          "name": "AFB Retail Service Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "466730e1-48d4-4a6c-a57e-c1bb1fb9e814",
+          "operator": { "id": "8472c1d0-2743-4b06-b4e6-a740c491ded6" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T23:26:54Z",
+          "duration": 176,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T23:29:50Z",
+          "end_reason": "visitor_left",
+          "requested_at": "2022-03-07T23:26:54Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+              "name": "AFB Retail Service Chat Bot"
+            }
+          ],
+          "queue_wait_time": 2,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "0c018d79-1ed2-4796-a2e6-bac914555446",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T23:24:40Z",
+      "visitor_name": "",
+      "visitor_browser": "Chrome",
+      "visitor_device_type": "mobile",
+      "visitor_id": "30f8cd46-928e-4666-a83c-d18f0754f06c",
+      "duration": 89,
+      "queue_wait_time": 0,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/30f8cd46-928e-4666-a83c-d18f0754f06c"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/0c018d79-1ed2-4796-a2e6-bac914555446/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/a80e57a8-2412-406b-be89-cb3c9872500a"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "7e429764-d4c7-4390-82ca-3b397554fd3c",
+          "name": "AFB Retail Sales Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "0bfebfdb-ef3c-4c6e-a31f-45163a133b3e",
+          "operator": { "id": "a80e57a8-2412-406b-be89-cb3c9872500a" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T23:24:40Z",
+          "duration": 89,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T23:26:09Z",
+          "end_reason": "visitor_left",
+          "requested_at": "2022-03-07T23:24:40Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "7e429764-d4c7-4390-82ca-3b397554fd3c",
+              "name": "AFB Retail Sales Chat Bot"
+            }
+          ],
+          "queue_wait_time": 0,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "eca2705c-4e04-42fc-a400-0161eff7dcd6",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T23:16:46Z",
+      "visitor_name": "Jevonnie Dunbar",
+      "visitor_browser": "Safari",
+      "visitor_device_type": "mobile",
+      "visitor_id": "1b386a10-0b92-4516-9125-9225fc95dddb",
+      "duration": 277,
+      "queue_wait_time": 10,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/1b386a10-0b92-4516-9125-9225fc95dddb"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/eca2705c-4e04-42fc-a400-0161eff7dcd6/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/4d839020-2968-4c60-a5d9-47b7783cc286"
+        },
+        {
+          "href": "https://api.salemove.com/operators/8472c1d0-2743-4b06-b4e6-a740c491ded6"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+          "name": "AFB Retail Service Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "598be8a7-b511-48a1-b33f-b94b1d60d5eb",
+          "operator": { "id": "4d839020-2968-4c60-a5d9-47b7783cc286" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T23:17:59Z",
+          "duration": 214,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T23:21:33Z",
+          "end_reason": "visitor_left",
+          "requested_at": "2022-03-07T23:17:50Z",
+          "request_type": "transfer",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "e041698c-5556-4d4f-89d0-7f2bd2604234",
+              "name": "AFB Retail Service #1 and #2"
+            }
+          ],
+          "queue_wait_time": 9,
+          "request_source": null,
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        },
+        {
+          "id": "13421f86-f0c6-448a-b982-280997d87388",
+          "operator": { "id": "8472c1d0-2743-4b06-b4e6-a740c491ded6" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T23:16:46Z",
+          "duration": 63,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T23:17:49Z",
+          "end_reason": "transferred",
+          "requested_at": "2022-03-07T23:16:46Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+              "name": "AFB Retail Service Chat Bot"
+            }
+          ],
+          "queue_wait_time": 1,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "dfa418c8-98c4-4b57-8d4e-3aec63e0ec6f",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T23:14:02Z",
+      "visitor_name": "JEANNA DIEHL",
+      "visitor_browser": "Chrome",
+      "visitor_device_type": "mobile",
+      "visitor_id": "8d4fae51-5be9-4c27-8367-7fae3ac6e163",
+      "duration": 123,
+      "queue_wait_time": 1,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/8d4fae51-5be9-4c27-8367-7fae3ac6e163"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/dfa418c8-98c4-4b57-8d4e-3aec63e0ec6f/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/8472c1d0-2743-4b06-b4e6-a740c491ded6"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+          "name": "AFB Retail Service Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "3d422ce5-83eb-48fe-97d4-874b4bb869dd",
+          "operator": { "id": "8472c1d0-2743-4b06-b4e6-a740c491ded6" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T23:14:02Z",
+          "duration": 123,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T23:16:04Z",
+          "end_reason": "operator_hung_up",
+          "requested_at": "2022-03-07T23:14:02Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+              "name": "AFB Retail Service Chat Bot"
+            }
+          ],
+          "queue_wait_time": 1,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "3ec68b31-ad89-4049-81b4-702d7de36329",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T23:13:59Z",
+      "visitor_name": "",
+      "visitor_browser": "Safari",
+      "visitor_device_type": "mobile",
+      "visitor_id": "1797c771-f441-4332-9a15-fdd083b76738",
+      "duration": 121,
+      "queue_wait_time": 20,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/1797c771-f441-4332-9a15-fdd083b76738"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/3ec68b31-ad89-4049-81b4-702d7de36329/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/bfaa4748-affa-4e66-978e-5e6f86c1213a"
+        },
+        {
+          "href": "https://api.salemove.com/operators/a80e57a8-2412-406b-be89-cb3c9872500a"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "7e429764-d4c7-4390-82ca-3b397554fd3c",
+          "name": "AFB Retail Sales Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "a93cd055-8852-400e-a4fc-f47a612800e2",
+          "operator": { "id": "bfaa4748-affa-4e66-978e-5e6f86c1213a" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T23:14:50Z",
+          "duration": 89,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T23:16:19Z",
+          "end_reason": "visitor_hung_up",
+          "requested_at": "2022-03-07T23:14:32Z",
+          "request_type": "transfer",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "2ac73627-d7a4-49f6-9e81-664c6327ff25",
+              "name": "AFB Deposits  - UBC Sales"
+            }
+          ],
+          "queue_wait_time": 19,
+          "request_source": null,
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        },
+        {
+          "id": "3a2131a7-e4e5-420a-a1bf-652946804efa",
+          "operator": { "id": "a80e57a8-2412-406b-be89-cb3c9872500a" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T23:13:59Z",
+          "duration": 32,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T23:14:30Z",
+          "end_reason": "transferred",
+          "requested_at": "2022-03-07T23:13:59Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "7e429764-d4c7-4390-82ca-3b397554fd3c",
+              "name": "AFB Retail Sales Chat Bot"
+            }
+          ],
+          "queue_wait_time": 1,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "96b866fd-ab9c-4fae-bcbe-1565cfd7bc0f",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T23:12:42Z",
+      "visitor_name": "JEANNA DIEHL",
+      "visitor_browser": "Chrome",
+      "visitor_device_type": "mobile",
+      "visitor_id": "8d4fae51-5be9-4c27-8367-7fae3ac6e163",
+      "duration": 31,
+      "queue_wait_time": 2,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/8d4fae51-5be9-4c27-8367-7fae3ac6e163"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/96b866fd-ab9c-4fae-bcbe-1565cfd7bc0f/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/8472c1d0-2743-4b06-b4e6-a740c491ded6"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+          "name": "AFB Retail Service Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "99c0ba76-fe09-4706-8d64-d36d96d0427a",
+          "operator": { "id": "8472c1d0-2743-4b06-b4e6-a740c491ded6" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T23:12:42Z",
+          "duration": 31,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T23:13:13Z",
+          "end_reason": "operator_hung_up",
+          "requested_at": "2022-03-07T23:12:42Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+              "name": "AFB Retail Service Chat Bot"
+            }
+          ],
+          "queue_wait_time": 2,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "4392cde3-d351-464a-9199-8e013479884c",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T23:11:37Z",
+      "visitor_name": "Shylah Hernandez",
+      "visitor_browser": "Chrome",
+      "visitor_device_type": "mobile",
+      "visitor_id": "f1e19260-9ac1-4d46-bd88-4eac8e579053",
+      "duration": 668,
+      "queue_wait_time": 15,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/f1e19260-9ac1-4d46-bd88-4eac8e579053"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/4392cde3-d351-464a-9199-8e013479884c/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/73922c19-de20-43b0-9ad9-ba97a75641ff"
+        },
+        {
+          "href": "https://api.salemove.com/operators/8472c1d0-2743-4b06-b4e6-a740c491ded6"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+          "name": "AFB Retail Service Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "86403527-aebc-4649-a2af-e2eab68aa912",
+          "operator": { "id": "73922c19-de20-43b0-9ad9-ba97a75641ff" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T23:12:59Z",
+          "duration": 600,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T23:22:59Z",
+          "end_reason": "visitor_hung_up",
+          "requested_at": "2022-03-07T23:12:47Z",
+          "request_type": "transfer",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "e041698c-5556-4d4f-89d0-7f2bd2604234",
+              "name": "AFB Retail Service #1 and #2"
+            }
+          ],
+          "queue_wait_time": 14,
+          "request_source": null,
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        },
+        {
+          "id": "2dd07fdb-f512-4b4b-b2ac-baff6ae6b0c5",
+          "operator": { "id": "8472c1d0-2743-4b06-b4e6-a740c491ded6" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T23:11:37Z",
+          "duration": 68,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T23:12:45Z",
+          "end_reason": "transferred",
+          "requested_at": "2022-03-07T23:11:37Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+              "name": "AFB Retail Service Chat Bot"
+            }
+          ],
+          "queue_wait_time": 1,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "cc8a2443-5ba2-4a01-a9e6-b49c5debf7be",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T23:09:56Z",
+      "visitor_name": "JEANNA DIEHL",
+      "visitor_browser": "Chrome",
+      "visitor_device_type": "mobile",
+      "visitor_id": "8d4fae51-5be9-4c27-8367-7fae3ac6e163",
+      "duration": 41,
+      "queue_wait_time": 1,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/8d4fae51-5be9-4c27-8367-7fae3ac6e163"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/cc8a2443-5ba2-4a01-a9e6-b49c5debf7be/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/8472c1d0-2743-4b06-b4e6-a740c491ded6"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+          "name": "AFB Retail Service Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "24770090-4746-491d-96e1-840653039302",
+          "operator": { "id": "8472c1d0-2743-4b06-b4e6-a740c491ded6" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T23:09:56Z",
+          "duration": 41,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T23:10:37Z",
+          "end_reason": "operator_hung_up",
+          "requested_at": "2022-03-07T23:09:56Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+              "name": "AFB Retail Service Chat Bot"
+            }
+          ],
+          "queue_wait_time": 1,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "4e704c12-cc67-4daf-94bf-3049cb732b9b",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T23:08:17Z",
+      "visitor_name": "David Garcia",
+      "visitor_browser": "Safari",
+      "visitor_device_type": "mobile",
+      "visitor_id": "24bd25f8-e329-4c25-b346-3d9f54b64d75",
+      "duration": 86,
+      "queue_wait_time": 2,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/24bd25f8-e329-4c25-b346-3d9f54b64d75"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/4e704c12-cc67-4daf-94bf-3049cb732b9b/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/8472c1d0-2743-4b06-b4e6-a740c491ded6"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+          "name": "AFB Retail Service Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "42fd1237-ad34-4a93-a78a-54d850e54eef",
+          "operator": { "id": "8472c1d0-2743-4b06-b4e6-a740c491ded6" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T23:08:17Z",
+          "duration": 86,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T23:09:44Z",
+          "end_reason": "visitor_left",
+          "requested_at": "2022-03-07T23:08:17Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+              "name": "AFB Retail Service Chat Bot"
+            }
+          ],
+          "queue_wait_time": 2,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "84725244-4336-4170-8a6b-7f798574d548",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T23:05:55Z",
+      "visitor_name": "",
+      "visitor_browser": "Safari",
+      "visitor_device_type": "mobile",
+      "visitor_id": "d440c29a-94e5-4057-9916-9bce942f6967",
+      "duration": 825,
+      "queue_wait_time": 6,
+      "audio_recording_urls": [
+        "https://api.salemove.com/sub_engagements/24108216/conference_recordings/034f28ff-0e34-4c98-a557-d49575bc9c1a.mp3"
+      ],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/d440c29a-94e5-4057-9916-9bce942f6967"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/84725244-4336-4170-8a6b-7f798574d548/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/bcc31387-2971-4a31-9f22-dc560fdf8037"
+        },
+        {
+          "href": "https://api.salemove.com/operators/a80e57a8-2412-406b-be89-cb3c9872500a"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "7e429764-d4c7-4390-82ca-3b397554fd3c",
+          "name": "AFB Retail Sales Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "fd642b67-fe1f-489d-8390-29b2a55e4a16",
+          "operator": { "id": "bcc31387-2971-4a31-9f22-dc560fdf8037" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T23:06:43Z",
+          "duration": 783,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T23:19:47Z",
+          "end_reason": "operator_hung_up",
+          "requested_at": "2022-03-07T23:06:39Z",
+          "request_type": "transfer",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "2ac73627-d7a4-49f6-9e81-664c6327ff25",
+              "name": "AFB Deposits  - UBC Sales"
+            }
+          ],
+          "queue_wait_time": 5,
+          "request_source": null,
+          "highest_visitor_media_type": "audio",
+          "highest_operator_media_type": "audio"
+        },
+        {
+          "id": "c372e46d-2774-431a-b524-e951728d1658",
+          "operator": { "id": "a80e57a8-2412-406b-be89-cb3c9872500a" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T23:05:55Z",
+          "duration": 42,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T23:06:37Z",
+          "end_reason": "transferred",
+          "requested_at": "2022-03-07T23:05:55Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "7e429764-d4c7-4390-82ca-3b397554fd3c",
+              "name": "AFB Retail Sales Chat Bot"
+            }
+          ],
+          "queue_wait_time": 1,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": true
+    },
+    {
+      "id": "6af81020-f432-45bc-abe6-42dca9950e96",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T23:05:37Z",
+      "visitor_name": "David Garcia",
+      "visitor_browser": "Safari",
+      "visitor_device_type": "mobile",
+      "visitor_id": "24bd25f8-e329-4c25-b346-3d9f54b64d75",
+      "duration": 150,
+      "queue_wait_time": 2,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/24bd25f8-e329-4c25-b346-3d9f54b64d75"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/6af81020-f432-45bc-abe6-42dca9950e96/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/8472c1d0-2743-4b06-b4e6-a740c491ded6"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+          "name": "AFB Retail Service Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "9a4c60cb-dc66-4b03-be5e-08a98e2b9d63",
+          "operator": { "id": "8472c1d0-2743-4b06-b4e6-a740c491ded6" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T23:05:37Z",
+          "duration": 150,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T23:08:07Z",
+          "end_reason": "operator_hung_up",
+          "requested_at": "2022-03-07T23:05:37Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+              "name": "AFB Retail Service Chat Bot"
+            }
+          ],
+          "queue_wait_time": 2,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "1a8d1b49-d4bf-439a-af0f-35725f97f78e",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T23:05:06Z",
+      "visitor_name": "",
+      "visitor_browser": "Chrome",
+      "visitor_device_type": "mobile",
+      "visitor_id": "0eaa806a-a04e-47e3-b887-d1b9687dfd0f",
+      "duration": 5,
+      "queue_wait_time": 0,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/0eaa806a-a04e-47e3-b887-d1b9687dfd0f"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/1a8d1b49-d4bf-439a-af0f-35725f97f78e/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/a80e57a8-2412-406b-be89-cb3c9872500a"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "7e429764-d4c7-4390-82ca-3b397554fd3c",
+          "name": "AFB Retail Sales Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "fb2d3711-ea32-4b6b-b6ba-d63b4541df52",
+          "operator": { "id": "a80e57a8-2412-406b-be89-cb3c9872500a" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T23:05:06Z",
+          "duration": 5,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T23:05:11Z",
+          "end_reason": "visitor_hung_up",
+          "requested_at": "2022-03-07T23:05:06Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "7e429764-d4c7-4390-82ca-3b397554fd3c",
+              "name": "AFB Retail Sales Chat Bot"
+            }
+          ],
+          "queue_wait_time": 0,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "abd9a1f0-c2d7-4c2f-82ff-c5b08530bd7a",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T23:03:41Z",
+      "visitor_name": "ELDORADO SWINDLE",
+      "visitor_browser": "Chrome",
+      "visitor_device_type": "mobile",
+      "visitor_id": "01a78282-471f-40ae-ab34-8d46960cc72d",
+      "duration": 26,
+      "queue_wait_time": 2,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/01a78282-471f-40ae-ab34-8d46960cc72d"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/abd9a1f0-c2d7-4c2f-82ff-c5b08530bd7a/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/8472c1d0-2743-4b06-b4e6-a740c491ded6"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+          "name": "AFB Retail Service Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "f240fec6-0f2d-4ef5-b58a-11f16f0016e7",
+          "operator": { "id": "8472c1d0-2743-4b06-b4e6-a740c491ded6" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T23:03:41Z",
+          "duration": 26,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T23:04:07Z",
+          "end_reason": "visitor_hung_up",
+          "requested_at": "2022-03-07T23:03:41Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+              "name": "AFB Retail Service Chat Bot"
+            }
+          ],
+          "queue_wait_time": 2,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "09cbd218-5ff5-49f4-b5bc-b5229ef426f3",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T23:02:57Z",
+      "visitor_name": "",
+      "visitor_browser": "Chrome",
+      "visitor_device_type": "mobile",
+      "visitor_id": "ca9d408a-1ab0-476b-a99b-35486adcbcc0",
+      "duration": 301,
+      "queue_wait_time": 38,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/ca9d408a-1ab0-476b-a99b-35486adcbcc0"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/09cbd218-5ff5-49f4-b5bc-b5229ef426f3/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/bfaa4748-affa-4e66-978e-5e6f86c1213a"
+        },
+        {
+          "href": "https://api.salemove.com/operators/a80e57a8-2412-406b-be89-cb3c9872500a"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "7e429764-d4c7-4390-82ca-3b397554fd3c",
+          "name": "AFB Retail Sales Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "28640f62-2833-48c4-97cb-1886ab71edec",
+          "operator": { "id": "bfaa4748-affa-4e66-978e-5e6f86c1213a" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T23:03:58Z",
+          "duration": 276,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T23:08:35Z",
+          "end_reason": "operator_hung_up",
+          "requested_at": "2022-03-07T23:03:23Z",
+          "request_type": "transfer",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "2ac73627-d7a4-49f6-9e81-664c6327ff25",
+              "name": "AFB Deposits  - UBC Sales"
+            }
+          ],
+          "queue_wait_time": 36,
+          "request_source": null,
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        },
+        {
+          "id": "dd0d7477-88c2-4ed9-8534-6b7f9b2b7018",
+          "operator": { "id": "a80e57a8-2412-406b-be89-cb3c9872500a" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T23:02:57Z",
+          "duration": 25,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T23:03:22Z",
+          "end_reason": "transferred",
+          "requested_at": "2022-03-07T23:02:57Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "7e429764-d4c7-4390-82ca-3b397554fd3c",
+              "name": "AFB Retail Sales Chat Bot"
+            }
+          ],
+          "queue_wait_time": 2,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "357835d6-9654-4a3f-9aa2-fc224fac7155",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T23:01:11Z",
+      "visitor_name": "JARRETT RIMEL",
+      "visitor_browser": "Chrome",
+      "visitor_device_type": "mobile",
+      "visitor_id": "c69c2f17-ce24-41f6-ba56-1e8ae2d67138",
+      "duration": 699,
+      "queue_wait_time": 6,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/c69c2f17-ce24-41f6-ba56-1e8ae2d67138"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/357835d6-9654-4a3f-9aa2-fc224fac7155/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/55ebd370-8ecc-49a8-8557-013dc347481a"
+        },
+        {
+          "href": "https://api.salemove.com/operators/8472c1d0-2743-4b06-b4e6-a740c491ded6"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+          "name": "AFB Retail Service Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "9b250bcf-14c2-42b2-b6fa-0c21df82518b",
+          "operator": { "id": "55ebd370-8ecc-49a8-8557-013dc347481a" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T23:02:03Z",
+          "duration": 653,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T23:12:57Z",
+          "end_reason": "visitor_hung_up",
+          "requested_at": "2022-03-07T23:01:58Z",
+          "request_type": "transfer",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "e041698c-5556-4d4f-89d0-7f2bd2604234",
+              "name": "AFB Retail Service #1 and #2"
+            }
+          ],
+          "queue_wait_time": 6,
+          "request_source": null,
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        },
+        {
+          "id": "7f015c44-17b5-4881-87b0-7a7ba0532d97",
+          "operator": { "id": "8472c1d0-2743-4b06-b4e6-a740c491ded6" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T23:01:11Z",
+          "duration": 46,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T23:01:57Z",
+          "end_reason": "transferred",
+          "requested_at": "2022-03-07T23:01:11Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+              "name": "AFB Retail Service Chat Bot"
+            }
+          ],
+          "queue_wait_time": 0,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "bce739af-e916-4c19-93c9-f018b5c129e2",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T23:00:32Z",
+      "visitor_name": "JORDAN HARGENRADER",
+      "visitor_browser": "Chrome",
+      "visitor_device_type": "mobile",
+      "visitor_id": "39333836-c950-469b-93de-29b682123468",
+      "duration": 63,
+      "queue_wait_time": 0,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/39333836-c950-469b-93de-29b682123468"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/bce739af-e916-4c19-93c9-f018b5c129e2/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/8472c1d0-2743-4b06-b4e6-a740c491ded6"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+          "name": "AFB Retail Service Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "a221b5c8-eb0e-44ab-9314-c1942399d607",
+          "operator": { "id": "8472c1d0-2743-4b06-b4e6-a740c491ded6" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T23:00:32Z",
+          "duration": 63,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T23:01:35Z",
+          "end_reason": "visitor_hung_up",
+          "requested_at": "2022-03-07T23:00:32Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+              "name": "AFB Retail Service Chat Bot"
+            }
+          ],
+          "queue_wait_time": 0,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "c2955857-73ad-4df3-ab8f-6f156a0f13be",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T22:53:04Z",
+      "visitor_name": "JAIMIE COLBURN",
+      "visitor_browser": "Chrome",
+      "visitor_device_type": "mobile",
+      "visitor_id": "7185284b-c99f-4643-b473-e1a9c5ad516f",
+      "duration": 26,
+      "queue_wait_time": 2,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/7185284b-c99f-4643-b473-e1a9c5ad516f"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/c2955857-73ad-4df3-ab8f-6f156a0f13be/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/8472c1d0-2743-4b06-b4e6-a740c491ded6"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+          "name": "AFB Retail Service Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "f7f3baba-f7dc-437b-9379-ea95f390bdf3",
+          "operator": { "id": "8472c1d0-2743-4b06-b4e6-a740c491ded6" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T22:53:04Z",
+          "duration": 26,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T22:53:30Z",
+          "end_reason": "visitor_hung_up",
+          "requested_at": "2022-03-07T22:53:04Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+              "name": "AFB Retail Service Chat Bot"
+            }
+          ],
+          "queue_wait_time": 2,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "854f4c90-4411-4b62-a69e-13378afc54ac",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T22:51:30Z",
+      "visitor_name": "",
+      "visitor_browser": "Chrome",
+      "visitor_device_type": "mobile",
+      "visitor_id": "0eaa806a-a04e-47e3-b887-d1b9687dfd0f",
+      "duration": 26,
+      "queue_wait_time": 0,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/0eaa806a-a04e-47e3-b887-d1b9687dfd0f"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/854f4c90-4411-4b62-a69e-13378afc54ac/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/a80e57a8-2412-406b-be89-cb3c9872500a"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "7e429764-d4c7-4390-82ca-3b397554fd3c",
+          "name": "AFB Retail Sales Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "1ec222b9-4759-4810-a31a-25f3d5e9bba0",
+          "operator": { "id": "a80e57a8-2412-406b-be89-cb3c9872500a" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T22:51:30Z",
+          "duration": 26,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T22:51:56Z",
+          "end_reason": "transferred",
+          "requested_at": "2022-03-07T22:51:30Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "7e429764-d4c7-4390-82ca-3b397554fd3c",
+              "name": "AFB Retail Sales Chat Bot"
+            }
+          ],
+          "queue_wait_time": 0,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "3ceafb45-5b11-4166-8d03-c19197a4155c",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T22:51:12Z",
+      "visitor_name": "",
+      "visitor_browser": "Chrome",
+      "visitor_device_type": "mobile",
+      "visitor_id": "ca9d408a-1ab0-476b-a99b-35486adcbcc0",
+      "duration": 465,
+      "queue_wait_time": 7,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/ca9d408a-1ab0-476b-a99b-35486adcbcc0"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/3ceafb45-5b11-4166-8d03-c19197a4155c/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/e35bab09-c2c7-408f-a6e4-4562a86c2b60"
+        },
+        {
+          "href": "https://api.salemove.com/operators/a80e57a8-2412-406b-be89-cb3c9872500a"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "7e429764-d4c7-4390-82ca-3b397554fd3c",
+          "name": "AFB Retail Sales Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "e4dbbce0-7b06-4947-9067-ca156559af26",
+          "operator": { "id": "e35bab09-c2c7-408f-a6e4-4562a86c2b60" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T22:52:29Z",
+          "duration": 395,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T22:59:04Z",
+          "end_reason": "operator_hung_up",
+          "requested_at": "2022-03-07T22:52:25Z",
+          "request_type": "transfer",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "a8d79952-d96d-4587-b4f1-79241b94e6c3",
+              "name": "AFB Retail Sales #1"
+            }
+          ],
+          "queue_wait_time": 6,
+          "request_source": null,
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        },
+        {
+          "id": "aa3bda3a-6e06-4722-832c-7afc3cf9ef3e",
+          "operator": { "id": "a80e57a8-2412-406b-be89-cb3c9872500a" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T22:51:12Z",
+          "duration": 70,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T22:52:22Z",
+          "end_reason": "transferred",
+          "requested_at": "2022-03-07T22:51:12Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "7e429764-d4c7-4390-82ca-3b397554fd3c",
+              "name": "AFB Retail Sales Chat Bot"
+            }
+          ],
+          "queue_wait_time": 1,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "99faa44e-12a4-4347-9c3c-22ee3e323ee1",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T22:49:54Z",
+      "visitor_name": "Harold Juarez",
+      "visitor_browser": "Safari",
+      "visitor_device_type": "desktop",
+      "visitor_id": "72eeb3ad-8a3a-4ce2-8ef0-9c903c1f48b2",
+      "duration": 808,
+      "queue_wait_time": 8,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/72eeb3ad-8a3a-4ce2-8ef0-9c903c1f48b2"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/99faa44e-12a4-4347-9c3c-22ee3e323ee1/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/4d839020-2968-4c60-a5d9-47b7783cc286"
+        },
+        {
+          "href": "https://api.salemove.com/operators/8472c1d0-2743-4b06-b4e6-a740c491ded6"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+          "name": "AFB Retail Service Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "1ea6500c-f34c-4067-9548-126dbd6e59d4",
+          "operator": { "id": "4d839020-2968-4c60-a5d9-47b7783cc286" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T22:53:30Z",
+          "duration": 599,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T23:03:29Z",
+          "end_reason": "operator_hung_up",
+          "requested_at": "2022-03-07T22:53:25Z",
+          "request_type": "transfer",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "e041698c-5556-4d4f-89d0-7f2bd2604234",
+              "name": "AFB Retail Service #1 and #2"
+            }
+          ],
+          "queue_wait_time": 6,
+          "request_source": null,
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        },
+        {
+          "id": "12b53332-c1b1-45f7-8fb4-1593a25e53c1",
+          "operator": { "id": "8472c1d0-2743-4b06-b4e6-a740c491ded6" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T22:49:54Z",
+          "duration": 209,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T22:53:23Z",
+          "end_reason": "transferred",
+          "requested_at": "2022-03-07T22:49:54Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+              "name": "AFB Retail Service Chat Bot"
+            }
+          ],
+          "queue_wait_time": 2,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "179a65be-7751-4de2-a0ac-48d34588e287",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T22:47:06Z",
+      "visitor_name": "Marquis Coleman",
+      "visitor_browser": "Safari",
+      "visitor_device_type": "mobile",
+      "visitor_id": "ba9d35f1-472e-4f12-be79-ec97c6d050ac",
+      "duration": 400,
+      "queue_wait_time": 8,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/ba9d35f1-472e-4f12-be79-ec97c6d050ac"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/179a65be-7751-4de2-a0ac-48d34588e287/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/73922c19-de20-43b0-9ad9-ba97a75641ff"
+        },
+        {
+          "href": "https://api.salemove.com/operators/8472c1d0-2743-4b06-b4e6-a740c491ded6"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+          "name": "AFB Retail Service Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "3f36460c-51be-4a58-9070-aade8e053324",
+          "operator": { "id": "73922c19-de20-43b0-9ad9-ba97a75641ff" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T22:47:28Z",
+          "duration": 385,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T22:53:53Z",
+          "end_reason": "visitor_left",
+          "requested_at": "2022-03-07T22:47:21Z",
+          "request_type": "transfer",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "e041698c-5556-4d4f-89d0-7f2bd2604234",
+              "name": "AFB Retail Service #1 and #2"
+            }
+          ],
+          "queue_wait_time": 7,
+          "request_source": null,
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        },
+        {
+          "id": "f020e57d-336e-4623-a2be-b5ae1d72d2a4",
+          "operator": { "id": "8472c1d0-2743-4b06-b4e6-a740c491ded6" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T22:47:06Z",
+          "duration": 15,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T22:47:21Z",
+          "end_reason": "transferred",
+          "requested_at": "2022-03-07T22:47:06Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+              "name": "AFB Retail Service Chat Bot"
+            }
+          ],
+          "queue_wait_time": 1,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "8e7ff43d-3217-4ba4-a798-ca7be7bcef5a",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T22:45:42Z",
+      "visitor_name": "",
+      "visitor_browser": "Chrome",
+      "visitor_device_type": "desktop",
+      "visitor_id": "855da236-2909-494f-8af8-23371307694a",
+      "duration": 814,
+      "queue_wait_time": 76,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/855da236-2909-494f-8af8-23371307694a"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/8e7ff43d-3217-4ba4-a798-ca7be7bcef5a/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/e41b33be-aa7a-4684-afac-17cf09e92d1b"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "a8d79952-d96d-4587-b4f1-79241b94e6c3",
+          "name": "AFB Retail Sales #1"
+        }
+      ],
+      "legs": [
+        {
+          "id": "7fee97c5-173c-479d-b09b-7d06140f0233",
+          "operator": { "id": "e41b33be-aa7a-4684-afac-17cf09e92d1b" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T22:45:42Z",
+          "duration": 814,
+          "used_cobrowsing": true,
+          "ended_at": "2022-03-07T22:59:15Z",
+          "end_reason": "visitor_left",
+          "requested_at": "2022-03-07T22:45:30Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "a8d79952-d96d-4587-b4f1-79241b94e6c3",
+              "name": "AFB Retail Sales #1"
+            }
+          ],
+          "queue_wait_time": 76,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": true,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "f19f338a-45e9-4f57-8726-6afb1d3c20f8",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T22:45:30Z",
+      "visitor_name": "Djuana Clyburn",
+      "visitor_browser": "Safari",
+      "visitor_device_type": "mobile",
+      "visitor_id": "0d658b36-c1c5-4479-b97b-884ec0e6205b",
+      "duration": 367,
+      "queue_wait_time": 11,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/0d658b36-c1c5-4479-b97b-884ec0e6205b"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/f19f338a-45e9-4f57-8726-6afb1d3c20f8/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/f0e986f1-4002-4396-b4c2-5bc29c530feb"
+        },
+        {
+          "href": "https://api.salemove.com/operators/8472c1d0-2743-4b06-b4e6-a740c491ded6"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+          "name": "AFB Retail Service Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "12b6f998-8f2c-4f3e-93f3-d5cc62279a28",
+          "operator": { "id": "f0e986f1-4002-4396-b4c2-5bc29c530feb" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T22:46:14Z",
+          "duration": 334,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T22:51:48Z",
+          "end_reason": "visitor_left",
+          "requested_at": "2022-03-07T22:46:03Z",
+          "request_type": "transfer",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "e041698c-5556-4d4f-89d0-7f2bd2604234",
+              "name": "AFB Retail Service #1 and #2"
+            }
+          ],
+          "queue_wait_time": 10,
+          "request_source": null,
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        },
+        {
+          "id": "21694097-bfd8-4830-a483-ab39a25738d8",
+          "operator": { "id": "8472c1d0-2743-4b06-b4e6-a740c491ded6" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T22:45:30Z",
+          "duration": 33,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T22:46:03Z",
+          "end_reason": "transferred",
+          "requested_at": "2022-03-07T22:45:30Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+              "name": "AFB Retail Service Chat Bot"
+            }
+          ],
+          "queue_wait_time": 1,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "9006a4d7-c0e7-428e-baa4-486c892b8ff7",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T22:43:59Z",
+      "visitor_name": "",
+      "visitor_browser": "Chrome",
+      "visitor_device_type": "mobile",
+      "visitor_id": "0eaa806a-a04e-47e3-b887-d1b9687dfd0f",
+      "duration": 34,
+      "queue_wait_time": 1,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/0eaa806a-a04e-47e3-b887-d1b9687dfd0f"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/9006a4d7-c0e7-428e-baa4-486c892b8ff7/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/a80e57a8-2412-406b-be89-cb3c9872500a"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "7e429764-d4c7-4390-82ca-3b397554fd3c",
+          "name": "AFB Retail Sales Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "7eb8a6bb-b361-4259-a897-2a0b3bd119c3",
+          "operator": { "id": "a80e57a8-2412-406b-be89-cb3c9872500a" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T22:43:59Z",
+          "duration": 34,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T22:44:32Z",
+          "end_reason": "transferred",
+          "requested_at": "2022-03-07T22:43:59Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "7e429764-d4c7-4390-82ca-3b397554fd3c",
+              "name": "AFB Retail Sales Chat Bot"
+            }
+          ],
+          "queue_wait_time": 1,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "30395ab1-1077-4050-9b29-f4f494788b00",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T22:42:51Z",
+      "visitor_name": "",
+      "visitor_browser": "Chrome",
+      "visitor_device_type": "desktop",
+      "visitor_id": "bbddb0a9-5792-42e6-a32f-79d0e246a1de",
+      "duration": 316,
+      "queue_wait_time": 2,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/bbddb0a9-5792-42e6-a32f-79d0e246a1de"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/30395ab1-1077-4050-9b29-f4f494788b00/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/a80e57a8-2412-406b-be89-cb3c9872500a"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "7e429764-d4c7-4390-82ca-3b397554fd3c",
+          "name": "AFB Retail Sales Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "603fde27-5cc3-47af-add4-e26658209cd0",
+          "operator": { "id": "a80e57a8-2412-406b-be89-cb3c9872500a" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T22:42:51Z",
+          "duration": 316,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T22:48:07Z",
+          "end_reason": "visitor_left",
+          "requested_at": "2022-03-07T22:42:51Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "7e429764-d4c7-4390-82ca-3b397554fd3c",
+              "name": "AFB Retail Sales Chat Bot"
+            }
+          ],
+          "queue_wait_time": 2,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "7194d9ea-5415-4ade-8aa8-a25615fb0ae4",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T22:40:30Z",
+      "visitor_name": "GELINA CHASTON",
+      "visitor_browser": "Chrome",
+      "visitor_device_type": "mobile",
+      "visitor_id": "c5b4ad7a-1311-4efc-aaed-0f3cbea38394",
+      "duration": 1123,
+      "queue_wait_time": 6,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/c5b4ad7a-1311-4efc-aaed-0f3cbea38394"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/7194d9ea-5415-4ade-8aa8-a25615fb0ae4/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/391b37a0-71c4-4086-ae84-af3720767109"
+        },
+        {
+          "href": "https://api.salemove.com/operators/8472c1d0-2743-4b06-b4e6-a740c491ded6"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+          "name": "AFB Retail Service Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "4eafd10d-3a9e-49ef-9f5c-f9b8ed89a133",
+          "operator": { "id": "391b37a0-71c4-4086-ae84-af3720767109" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T22:41:03Z",
+          "duration": 1096,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T22:59:20Z",
+          "end_reason": "visitor_hung_up",
+          "requested_at": "2022-03-07T22:40:59Z",
+          "request_type": "transfer",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "e041698c-5556-4d4f-89d0-7f2bd2604234",
+              "name": "AFB Retail Service #1 and #2"
+            }
+          ],
+          "queue_wait_time": 6,
+          "request_source": null,
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        },
+        {
+          "id": "c6ab253b-da51-47d8-a48d-9069d52a5f6d",
+          "operator": { "id": "8472c1d0-2743-4b06-b4e6-a740c491ded6" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T22:40:30Z",
+          "duration": 27,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T22:40:57Z",
+          "end_reason": "transferred",
+          "requested_at": "2022-03-07T22:40:30Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+              "name": "AFB Retail Service Chat Bot"
+            }
+          ],
+          "queue_wait_time": 0,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "0b48ff46-6c09-4259-8700-989e89857dcc",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T22:38:18Z",
+      "visitor_name": "GELINA CHASTON",
+      "visitor_browser": "Chrome",
+      "visitor_device_type": "mobile",
+      "visitor_id": "c5b4ad7a-1311-4efc-aaed-0f3cbea38394",
+      "duration": 123,
+      "queue_wait_time": 2,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/c5b4ad7a-1311-4efc-aaed-0f3cbea38394"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/0b48ff46-6c09-4259-8700-989e89857dcc/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/8472c1d0-2743-4b06-b4e6-a740c491ded6"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+          "name": "AFB Retail Service Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "30657945-311f-4de1-a40b-428a684e1431",
+          "operator": { "id": "8472c1d0-2743-4b06-b4e6-a740c491ded6" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T22:38:18Z",
+          "duration": 123,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T22:40:21Z",
+          "end_reason": "operator_hung_up",
+          "requested_at": "2022-03-07T22:38:18Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+              "name": "AFB Retail Service Chat Bot"
+            }
+          ],
+          "queue_wait_time": 2,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "8dd53f41-f6c0-4ce6-be24-d28f997fe342",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T22:38:10Z",
+      "visitor_name": "Matthew Daugherty",
+      "visitor_browser": "Edge",
+      "visitor_device_type": "desktop",
+      "visitor_id": "1a1d7601-19ac-4b7c-97c9-a33fb812cc2b",
+      "duration": 799,
+      "queue_wait_time": 6,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/1a1d7601-19ac-4b7c-97c9-a33fb812cc2b"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/8dd53f41-f6c0-4ce6-be24-d28f997fe342/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/dd272231-6d9f-4e88-abee-a041814db5e2"
+        },
+        {
+          "href": "https://api.salemove.com/operators/8472c1d0-2743-4b06-b4e6-a740c491ded6"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+          "name": "AFB Retail Service Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "5ffd2db5-ec8b-4429-94c4-5dbb67268144",
+          "operator": { "id": "dd272231-6d9f-4e88-abee-a041814db5e2" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T22:38:43Z",
+          "duration": 771,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T22:51:34Z",
+          "end_reason": "visitor_hung_up",
+          "requested_at": "2022-03-07T22:38:39Z",
+          "request_type": "transfer",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "e041698c-5556-4d4f-89d0-7f2bd2604234",
+              "name": "AFB Retail Service #1 and #2"
+            }
+          ],
+          "queue_wait_time": 5,
+          "request_source": null,
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        },
+        {
+          "id": "8902749b-30ec-49df-ac64-b3527fca1daa",
+          "operator": { "id": "8472c1d0-2743-4b06-b4e6-a740c491ded6" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T22:38:10Z",
+          "duration": 28,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T22:38:38Z",
+          "end_reason": "transferred",
+          "requested_at": "2022-03-07T22:38:10Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+              "name": "AFB Retail Service Chat Bot"
+            }
+          ],
+          "queue_wait_time": 1,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "a7d4c89b-907d-4017-8c4b-a1dac2f26b9c",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T22:37:17Z",
+      "visitor_name": "MIRELLA BOTTS",
+      "visitor_browser": "Safari",
+      "visitor_device_type": "mobile",
+      "visitor_id": "49a422eb-81fb-43fa-a9e9-ffbdfa921b50",
+      "duration": 962,
+      "queue_wait_time": 7,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/49a422eb-81fb-43fa-a9e9-ffbdfa921b50"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/a7d4c89b-907d-4017-8c4b-a1dac2f26b9c/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/0071440b-0dd2-4f6d-8d73-43f96196f525"
+        },
+        {
+          "href": "https://api.salemove.com/operators/8472c1d0-2743-4b06-b4e6-a740c491ded6"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+          "name": "AFB Retail Service Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "d87985a9-c5da-4d3c-aa4a-37e1f39681b4",
+          "operator": { "id": "0071440b-0dd2-4f6d-8d73-43f96196f525" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T22:40:26Z",
+          "duration": 781,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T22:53:26Z",
+          "end_reason": "operator_hung_up",
+          "requested_at": "2022-03-07T22:40:19Z",
+          "request_type": "transfer",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "e041698c-5556-4d4f-89d0-7f2bd2604234",
+              "name": "AFB Retail Service #1 and #2"
+            }
+          ],
+          "queue_wait_time": 7,
+          "request_source": null,
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        },
+        {
+          "id": "6d2b5009-3bca-4954-89da-353b1c27f557",
+          "operator": { "id": "8472c1d0-2743-4b06-b4e6-a740c491ded6" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T22:37:17Z",
+          "duration": 181,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T22:40:18Z",
+          "end_reason": "transferred",
+          "requested_at": "2022-03-07T22:37:17Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+              "name": "AFB Retail Service Chat Bot"
+            }
+          ],
+          "queue_wait_time": 0,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "c2d86f18-6249-4311-b1f6-c4be7b4eeadc",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T22:37:09Z",
+      "visitor_name": "",
+      "visitor_browser": "Edge",
+      "visitor_device_type": "desktop",
+      "visitor_id": "0073f4e0-b9cf-432b-9f6d-c767677463b8",
+      "duration": 705,
+      "queue_wait_time": 6,
+      "audio_recording_urls": [
+        "https://api.salemove.com/sub_engagements/24106845/conference_recordings/e662eaf1-2d54-461c-bc21-7101bcf9582e.mp3"
+      ],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/0073f4e0-b9cf-432b-9f6d-c767677463b8"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/c2d86f18-6249-4311-b1f6-c4be7b4eeadc/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/bcc31387-2971-4a31-9f22-dc560fdf8037"
+        },
+        {
+          "href": "https://api.salemove.com/operators/a80e57a8-2412-406b-be89-cb3c9872500a"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "7e429764-d4c7-4390-82ca-3b397554fd3c",
+          "name": "AFB Retail Sales Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "f724aacc-ba17-484f-947f-076a6320755e",
+          "operator": { "id": "bcc31387-2971-4a31-9f22-dc560fdf8037" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T22:39:20Z",
+          "duration": 580,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T22:49:00Z",
+          "end_reason": "operator_hung_up",
+          "requested_at": "2022-03-07T22:39:16Z",
+          "request_type": "transfer",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "2ac73627-d7a4-49f6-9e81-664c6327ff25",
+              "name": "AFB Deposits  - UBC Sales"
+            }
+          ],
+          "queue_wait_time": 5,
+          "request_source": null,
+          "highest_visitor_media_type": "audio",
+          "highest_operator_media_type": "audio"
+        },
+        {
+          "id": "fdd081e3-772e-4072-9f7f-61d6d2b9b667",
+          "operator": { "id": "a80e57a8-2412-406b-be89-cb3c9872500a" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T22:37:09Z",
+          "duration": 125,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T22:39:14Z",
+          "end_reason": "transferred",
+          "requested_at": "2022-03-07T22:37:09Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "7e429764-d4c7-4390-82ca-3b397554fd3c",
+              "name": "AFB Retail Sales Chat Bot"
+            }
+          ],
+          "queue_wait_time": 1,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": true
+    },
+    {
+      "id": "26fb46b1-4c6e-4dda-8118-5e9f59b2cb79",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T22:35:50Z",
+      "visitor_name": "JAIMIE COLBURN",
+      "visitor_browser": "Chrome",
+      "visitor_device_type": "mobile",
+      "visitor_id": "7185284b-c99f-4643-b473-e1a9c5ad516f",
+      "duration": 30,
+      "queue_wait_time": 1,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/7185284b-c99f-4643-b473-e1a9c5ad516f"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/26fb46b1-4c6e-4dda-8118-5e9f59b2cb79/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/8472c1d0-2743-4b06-b4e6-a740c491ded6"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+          "name": "AFB Retail Service Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "0097b6af-0508-44a0-970d-9889d7d1ff5b",
+          "operator": { "id": "8472c1d0-2743-4b06-b4e6-a740c491ded6" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T22:35:50Z",
+          "duration": 30,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T22:36:20Z",
+          "end_reason": "visitor_hung_up",
+          "requested_at": "2022-03-07T22:35:50Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+              "name": "AFB Retail Service Chat Bot"
+            }
+          ],
+          "queue_wait_time": 1,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "f51379f2-0041-409f-93c5-c1188838f9df",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T22:35:45Z",
+      "visitor_name": "Nathan Terro",
+      "visitor_browser": "Safari",
+      "visitor_device_type": "mobile",
+      "visitor_id": "b6c3f499-2278-45b4-ba55-fd44b09d902c",
+      "duration": 439,
+      "queue_wait_time": 8,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/b6c3f499-2278-45b4-ba55-fd44b09d902c"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/f51379f2-0041-409f-93c5-c1188838f9df/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/f0e986f1-4002-4396-b4c2-5bc29c530feb"
+        },
+        {
+          "href": "https://api.salemove.com/operators/8472c1d0-2743-4b06-b4e6-a740c491ded6"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+          "name": "AFB Retail Service Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "b45520c5-6e73-413a-aaa4-85d5236d9f34",
+          "operator": { "id": "f0e986f1-4002-4396-b4c2-5bc29c530feb" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T22:36:28Z",
+          "duration": 402,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T22:43:10Z",
+          "end_reason": "visitor_left",
+          "requested_at": "2022-03-07T22:36:24Z",
+          "request_type": "transfer",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "e041698c-5556-4d4f-89d0-7f2bd2604234",
+              "name": "AFB Retail Service #1 and #2"
+            }
+          ],
+          "queue_wait_time": 6,
+          "request_source": null,
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        },
+        {
+          "id": "3044767a-4022-40e8-896e-2f185ad29e42",
+          "operator": { "id": "8472c1d0-2743-4b06-b4e6-a740c491ded6" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T22:35:45Z",
+          "duration": 37,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T22:36:22Z",
+          "end_reason": "transferred",
+          "requested_at": "2022-03-07T22:35:44Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+              "name": "AFB Retail Service Chat Bot"
+            }
+          ],
+          "queue_wait_time": 2,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "a7b2f310-99a1-477a-b917-2f194277a421",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T22:35:08Z",
+      "visitor_name": "VAUELI ASI",
+      "visitor_browser": "Safari",
+      "visitor_device_type": "mobile",
+      "visitor_id": "f0ca7b3c-0876-4be2-bf90-d8659c635562",
+      "duration": 893,
+      "queue_wait_time": 11,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/f0ca7b3c-0876-4be2-bf90-d8659c635562"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/a7b2f310-99a1-477a-b917-2f194277a421/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/6e67e47a-c23b-4661-a155-d7ec5244f661"
+        },
+        {
+          "href": "https://api.salemove.com/operators/8472c1d0-2743-4b06-b4e6-a740c491ded6"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+          "name": "AFB Retail Service Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "a5c3d3ee-9972-4e8d-97fa-9ff8dd21ff61",
+          "operator": { "id": "6e67e47a-c23b-4661-a155-d7ec5244f661" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T22:39:33Z",
+          "duration": 639,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T22:50:12Z",
+          "end_reason": "operator_hung_up",
+          "requested_at": "2022-03-07T22:39:24Z",
+          "request_type": "transfer",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "e041698c-5556-4d4f-89d0-7f2bd2604234",
+              "name": "AFB Retail Service #1 and #2"
+            }
+          ],
+          "queue_wait_time": 11,
+          "request_source": null,
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        },
+        {
+          "id": "47cd5498-5f85-421b-9565-0e4f1935c381",
+          "operator": { "id": "8472c1d0-2743-4b06-b4e6-a740c491ded6" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T22:35:08Z",
+          "duration": 254,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T22:39:22Z",
+          "end_reason": "transferred",
+          "requested_at": "2022-03-07T22:35:08Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+              "name": "AFB Retail Service Chat Bot"
+            }
+          ],
+          "queue_wait_time": 0,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "6459424b-ad59-4199-b0a6-e2ebfa6d362e",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T22:34:52Z",
+      "visitor_name": "JAIMIE COLBURN",
+      "visitor_browser": "Chrome",
+      "visitor_device_type": "mobile",
+      "visitor_id": "7185284b-c99f-4643-b473-e1a9c5ad516f",
+      "duration": 42,
+      "queue_wait_time": 1,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/7185284b-c99f-4643-b473-e1a9c5ad516f"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/6459424b-ad59-4199-b0a6-e2ebfa6d362e/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/8472c1d0-2743-4b06-b4e6-a740c491ded6"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+          "name": "AFB Retail Service Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "863bdcf4-c8c1-45b7-8ed6-8bbdd5df5d92",
+          "operator": { "id": "8472c1d0-2743-4b06-b4e6-a740c491ded6" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T22:34:52Z",
+          "duration": 42,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T22:35:34Z",
+          "end_reason": "visitor_hung_up",
+          "requested_at": "2022-03-07T22:34:52Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+              "name": "AFB Retail Service Chat Bot"
+            }
+          ],
+          "queue_wait_time": 1,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "ed3aba3a-f349-413d-b56e-3b3439da80d3",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T22:33:57Z",
+      "visitor_name": "JAIMIE COLBURN",
+      "visitor_browser": "Chrome",
+      "visitor_device_type": "mobile",
+      "visitor_id": "7185284b-c99f-4643-b473-e1a9c5ad516f",
+      "duration": 42,
+      "queue_wait_time": 0,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/7185284b-c99f-4643-b473-e1a9c5ad516f"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/ed3aba3a-f349-413d-b56e-3b3439da80d3/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/8472c1d0-2743-4b06-b4e6-a740c491ded6"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+          "name": "AFB Retail Service Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "56b6a27a-3a67-4515-93f2-67c96cbd9ac2",
+          "operator": { "id": "8472c1d0-2743-4b06-b4e6-a740c491ded6" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T22:33:57Z",
+          "duration": 42,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T22:34:38Z",
+          "end_reason": "visitor_hung_up",
+          "requested_at": "2022-03-07T22:33:57Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+              "name": "AFB Retail Service Chat Bot"
+            }
+          ],
+          "queue_wait_time": 0,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "4ed825d3-77a3-42f3-ac6d-6108cddfce20",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T22:32:32Z",
+      "visitor_name": "Matthew Daugherty",
+      "visitor_browser": "Edge",
+      "visitor_device_type": "desktop",
+      "visitor_id": "1a1d7601-19ac-4b7c-97c9-a33fb812cc2b",
+      "duration": 318,
+      "queue_wait_time": 12,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/1a1d7601-19ac-4b7c-97c9-a33fb812cc2b"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/4ed825d3-77a3-42f3-ac6d-6108cddfce20/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/73922c19-de20-43b0-9ad9-ba97a75641ff"
+        },
+        {
+          "href": "https://api.salemove.com/operators/8472c1d0-2743-4b06-b4e6-a740c491ded6"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+          "name": "AFB Retail Service Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "e5338562-f7b4-4fcd-a43d-38bb4a2e79b0",
+          "operator": { "id": "73922c19-de20-43b0-9ad9-ba97a75641ff" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T22:33:09Z",
+          "duration": 292,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T22:38:00Z",
+          "end_reason": "visitor_hung_up",
+          "requested_at": "2022-03-07T22:33:01Z",
+          "request_type": "transfer",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "e041698c-5556-4d4f-89d0-7f2bd2604234",
+              "name": "AFB Retail Service #1 and #2"
+            }
+          ],
+          "queue_wait_time": 10,
+          "request_source": null,
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        },
+        {
+          "id": "30686d69-2dd7-47fc-b22f-377f192d0d72",
+          "operator": { "id": "8472c1d0-2743-4b06-b4e6-a740c491ded6" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T22:32:32Z",
+          "duration": 26,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T22:32:59Z",
+          "end_reason": "transferred",
+          "requested_at": "2022-03-07T22:32:32Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+              "name": "AFB Retail Service Chat Bot"
+            }
+          ],
+          "queue_wait_time": 2,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "1cae9900-b111-4001-99a6-88651732970e",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T22:31:42Z",
+      "visitor_name": "MEGAN BECKER",
+      "visitor_browser": "Safari",
+      "visitor_device_type": "mobile",
+      "visitor_id": "241f1400-3cb4-4c0d-a484-1634b8e0d216",
+      "duration": 398,
+      "queue_wait_time": 9,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/241f1400-3cb4-4c0d-a484-1634b8e0d216"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/1cae9900-b111-4001-99a6-88651732970e/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/e41b33be-aa7a-4684-afac-17cf09e92d1b"
+        },
+        {
+          "href": "https://api.salemove.com/operators/8472c1d0-2743-4b06-b4e6-a740c491ded6"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+          "name": "AFB Retail Service Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "70c7273f-0b5b-4aac-945c-cfa4c06017d3",
+          "operator": { "id": "e41b33be-aa7a-4684-afac-17cf09e92d1b" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T22:32:13Z",
+          "duration": 375,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T22:38:28Z",
+          "end_reason": "visitor_left",
+          "requested_at": "2022-03-07T22:32:06Z",
+          "request_type": "transfer",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "e041698c-5556-4d4f-89d0-7f2bd2604234",
+              "name": "AFB Retail Service #1 and #2"
+            }
+          ],
+          "queue_wait_time": 7,
+          "request_source": null,
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        },
+        {
+          "id": "52b1dbce-3cb8-4e13-9644-ef12f0adfc70",
+          "operator": { "id": "8472c1d0-2743-4b06-b4e6-a740c491ded6" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T22:31:42Z",
+          "duration": 23,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T22:32:06Z",
+          "end_reason": "transferred",
+          "requested_at": "2022-03-07T22:31:42Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+              "name": "AFB Retail Service Chat Bot"
+            }
+          ],
+          "queue_wait_time": 2,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "337a9a2e-d63e-4dea-8881-7412d949d976",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T22:29:39Z",
+      "visitor_name": "AARON WIXON",
+      "visitor_browser": "Safari",
+      "visitor_device_type": "mobile",
+      "visitor_id": "354f1465-4439-4ccd-8031-71ce63a9b00d",
+      "duration": 275,
+      "queue_wait_time": 14,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/354f1465-4439-4ccd-8031-71ce63a9b00d"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/337a9a2e-d63e-4dea-8881-7412d949d976/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/4d839020-2968-4c60-a5d9-47b7783cc286"
+        },
+        {
+          "href": "https://api.salemove.com/operators/8472c1d0-2743-4b06-b4e6-a740c491ded6"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+          "name": "AFB Retail Service Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "d24df0fb-f9ce-4b1a-a821-a2a7ba53f41c",
+          "operator": { "id": "4d839020-2968-4c60-a5d9-47b7783cc286" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T22:30:21Z",
+          "duration": 246,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T22:34:27Z",
+          "end_reason": "visitor_left",
+          "requested_at": "2022-03-07T22:30:08Z",
+          "request_type": "transfer",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "e041698c-5556-4d4f-89d0-7f2bd2604234",
+              "name": "AFB Retail Service #1 and #2"
+            }
+          ],
+          "queue_wait_time": 13,
+          "request_source": null,
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        },
+        {
+          "id": "fc2f3a54-0a14-4f7d-a971-90c4764e6814",
+          "operator": { "id": "8472c1d0-2743-4b06-b4e6-a740c491ded6" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T22:29:39Z",
+          "duration": 29,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T22:30:08Z",
+          "end_reason": "transferred",
+          "requested_at": "2022-03-07T22:29:39Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+              "name": "AFB Retail Service Chat Bot"
+            }
+          ],
+          "queue_wait_time": 1,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "0b7110cc-450f-4730-8993-6f5186e938ee",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T22:24:11Z",
+      "visitor_name": "KEYONO DORSEY",
+      "visitor_browser": "Safari",
+      "visitor_device_type": "mobile",
+      "visitor_id": "0710ad79-29c7-42a4-919b-27731259cc1f",
+      "duration": 403,
+      "queue_wait_time": 8,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/0710ad79-29c7-42a4-919b-27731259cc1f"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/0b7110cc-450f-4730-8993-6f5186e938ee/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/71655f93-5204-4d94-b1b4-2adf337633b2"
+        },
+        {
+          "href": "https://api.salemove.com/operators/8472c1d0-2743-4b06-b4e6-a740c491ded6"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+          "name": "AFB Retail Service Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "dec27259-f56f-4da8-ac01-8fe37417a125",
+          "operator": { "id": "71655f93-5204-4d94-b1b4-2adf337633b2" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T22:24:51Z",
+          "duration": 370,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T22:31:01Z",
+          "end_reason": "visitor_left",
+          "requested_at": "2022-03-07T22:24:45Z",
+          "request_type": "transfer",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "e041698c-5556-4d4f-89d0-7f2bd2604234",
+              "name": "AFB Retail Service #1 and #2"
+            }
+          ],
+          "queue_wait_time": 6,
+          "request_source": null,
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        },
+        {
+          "id": "84101177-79f3-4fd9-9d88-9164b56f3906",
+          "operator": { "id": "8472c1d0-2743-4b06-b4e6-a740c491ded6" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T22:24:11Z",
+          "duration": 33,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T22:24:44Z",
+          "end_reason": "transferred",
+          "requested_at": "2022-03-07T22:24:11Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+              "name": "AFB Retail Service Chat Bot"
+            }
+          ],
+          "queue_wait_time": 2,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "5860b1ad-b486-49e6-ae0c-9d2f0fc68ff2",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T22:23:26Z",
+      "visitor_name": "DYLAN JACOBS",
+      "visitor_browser": "Chrome",
+      "visitor_device_type": "mobile",
+      "visitor_id": "8a23285f-87a8-4076-9227-b71292762048",
+      "duration": 47,
+      "queue_wait_time": 1,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/8a23285f-87a8-4076-9227-b71292762048"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/5860b1ad-b486-49e6-ae0c-9d2f0fc68ff2/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/8472c1d0-2743-4b06-b4e6-a740c491ded6"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+          "name": "AFB Retail Service Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "4329e81f-7d45-498e-9553-4c46ff4a2264",
+          "operator": { "id": "8472c1d0-2743-4b06-b4e6-a740c491ded6" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T22:23:26Z",
+          "duration": 47,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T22:24:14Z",
+          "end_reason": "visitor_hung_up",
+          "requested_at": "2022-03-07T22:23:26Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+              "name": "AFB Retail Service Chat Bot"
+            }
+          ],
+          "queue_wait_time": 1,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "7143d370-594e-40f3-a45a-57726fe90bb7",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T22:22:55Z",
+      "visitor_name": "Travis Debarr",
+      "visitor_browser": "Safari",
+      "visitor_device_type": "mobile",
+      "visitor_id": "56b3ee30-ec88-4bef-9141-f8688e264978",
+      "duration": 42,
+      "queue_wait_time": 1,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/56b3ee30-ec88-4bef-9141-f8688e264978"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/7143d370-594e-40f3-a45a-57726fe90bb7/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/8472c1d0-2743-4b06-b4e6-a740c491ded6"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+          "name": "AFB Retail Service Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "01702d13-fb0f-4485-ad62-9323b5f08f78",
+          "operator": { "id": "8472c1d0-2743-4b06-b4e6-a740c491ded6" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T22:22:55Z",
+          "duration": 42,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T22:23:36Z",
+          "end_reason": "operator_hung_up",
+          "requested_at": "2022-03-07T22:22:55Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+              "name": "AFB Retail Service Chat Bot"
+            }
+          ],
+          "queue_wait_time": 1,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "2578a3ab-e950-4577-81a3-6ff5949bc924",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T22:21:59Z",
+      "visitor_name": "Matthew Daugherty",
+      "visitor_browser": "Safari",
+      "visitor_device_type": "mobile",
+      "visitor_id": "028e2e74-7713-4f4b-9637-e2de2a57564a",
+      "duration": 77,
+      "queue_wait_time": 73,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/028e2e74-7713-4f4b-9637-e2de2a57564a"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/2578a3ab-e950-4577-81a3-6ff5949bc924/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/588cb20c-bff9-474b-8ae1-a3add25c5033"
+        },
+        {
+          "href": "https://api.salemove.com/operators/8472c1d0-2743-4b06-b4e6-a740c491ded6"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+          "name": "AFB Retail Service Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "249f5809-48a4-4d08-a205-5f04f60374be",
+          "operator": { "id": "588cb20c-bff9-474b-8ae1-a3add25c5033" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T22:23:21Z",
+          "duration": 67,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T22:24:28Z",
+          "end_reason": "visitor_left",
+          "requested_at": "2022-03-07T22:23:10Z",
+          "request_type": "transfer",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "e041698c-5556-4d4f-89d0-7f2bd2604234",
+              "name": "AFB Retail Service #1 and #2"
+            }
+          ],
+          "queue_wait_time": 72,
+          "request_source": null,
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        },
+        {
+          "id": "a538a2d5-0523-4270-91c5-d8f062ae5e7b",
+          "operator": { "id": "8472c1d0-2743-4b06-b4e6-a740c491ded6" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T22:21:59Z",
+          "duration": 10,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T22:22:09Z",
+          "end_reason": "transferred",
+          "requested_at": "2022-03-07T22:21:59Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+              "name": "AFB Retail Service Chat Bot"
+            }
+          ],
+          "queue_wait_time": 1,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "5d9d4ed0-66d9-47e4-a012-0137932f4265",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T22:21:38Z",
+      "visitor_name": "MONIKA HUDSON",
+      "visitor_browser": "Safari",
+      "visitor_device_type": "mobile",
+      "visitor_id": "2c89415e-567a-4270-adf9-7ed012c867c4",
+      "duration": 36,
+      "queue_wait_time": 2,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/2c89415e-567a-4270-adf9-7ed012c867c4"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/5d9d4ed0-66d9-47e4-a012-0137932f4265/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/8472c1d0-2743-4b06-b4e6-a740c491ded6"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+          "name": "AFB Retail Service Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "7b1341fb-0f05-479e-97c5-ddea699389da",
+          "operator": { "id": "8472c1d0-2743-4b06-b4e6-a740c491ded6" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T22:21:38Z",
+          "duration": 36,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T22:22:13Z",
+          "end_reason": "visitor_hung_up",
+          "requested_at": "2022-03-07T22:21:38Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+              "name": "AFB Retail Service Chat Bot"
+            }
+          ],
+          "queue_wait_time": 2,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "125c440a-373d-4257-89e6-c0ce51880165",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T22:20:42Z",
+      "visitor_name": "",
+      "visitor_browser": "Chrome",
+      "visitor_device_type": "mobile",
+      "visitor_id": "0eaa806a-a04e-47e3-b887-d1b9687dfd0f",
+      "duration": 1023,
+      "queue_wait_time": 14,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/0eaa806a-a04e-47e3-b887-d1b9687dfd0f"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/125c440a-373d-4257-89e6-c0ce51880165/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/eec5f89c-e0a3-49c6-9f58-8ea0a6a9e693"
+        },
+        {
+          "href": "https://api.salemove.com/operators/a80e57a8-2412-406b-be89-cb3c9872500a"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "7e429764-d4c7-4390-82ca-3b397554fd3c",
+          "name": "AFB Retail Sales Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "8aa10ecf-e2f2-4906-816a-297dd89be596",
+          "operator": { "id": "eec5f89c-e0a3-49c6-9f58-8ea0a6a9e693" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T22:22:08Z",
+          "duration": 950,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T22:37:58Z",
+          "end_reason": "visitor_hung_up",
+          "requested_at": "2022-03-07T22:21:56Z",
+          "request_type": "transfer",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "2ac73627-d7a4-49f6-9e81-664c6327ff25",
+              "name": "AFB Deposits  - UBC Sales"
+            }
+          ],
+          "queue_wait_time": 12,
+          "request_source": null,
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        },
+        {
+          "id": "aefe176b-95a4-4a80-a523-946a6ea1de3a",
+          "operator": { "id": "a80e57a8-2412-406b-be89-cb3c9872500a" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T22:20:42Z",
+          "duration": 73,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T22:21:55Z",
+          "end_reason": "transferred",
+          "requested_at": "2022-03-07T22:20:42Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "7e429764-d4c7-4390-82ca-3b397554fd3c",
+              "name": "AFB Retail Sales Chat Bot"
+            }
+          ],
+          "queue_wait_time": 2,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "f874da2a-f6a9-4854-85ea-87b8b9717368",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T22:20:37Z",
+      "visitor_name": "MARSHALL ULRICH",
+      "visitor_browser": "Chrome",
+      "visitor_device_type": "desktop",
+      "visitor_id": "dc8b28cd-41a3-4115-afe9-89f65292a486",
+      "duration": 157,
+      "queue_wait_time": 66,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/dc8b28cd-41a3-4115-afe9-89f65292a486"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/f874da2a-f6a9-4854-85ea-87b8b9717368/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/391b37a0-71c4-4086-ae84-af3720767109"
+        },
+        {
+          "href": "https://api.salemove.com/operators/8472c1d0-2743-4b06-b4e6-a740c491ded6"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+          "name": "AFB Retail Service Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "8760d5c7-fb18-4988-a3a6-0ab2d70d3125",
+          "operator": { "id": "391b37a0-71c4-4086-ae84-af3720767109" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T22:22:21Z",
+          "duration": 118,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T22:24:18Z",
+          "end_reason": "visitor_hung_up",
+          "requested_at": "2022-03-07T22:22:17Z",
+          "request_type": "transfer",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "e041698c-5556-4d4f-89d0-7f2bd2604234",
+              "name": "AFB Retail Service #1 and #2"
+            }
+          ],
+          "queue_wait_time": 64,
+          "request_source": null,
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        },
+        {
+          "id": "888f3bda-f058-427d-9c9c-8b177d0ed06b",
+          "operator": { "id": "8472c1d0-2743-4b06-b4e6-a740c491ded6" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T22:20:37Z",
+          "duration": 39,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T22:21:16Z",
+          "end_reason": "transferred",
+          "requested_at": "2022-03-07T22:20:37Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+              "name": "AFB Retail Service Chat Bot"
+            }
+          ],
+          "queue_wait_time": 2,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "327cad32-c0fd-474b-b913-8932d29c08da",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T22:16:07Z",
+      "visitor_name": "MARK LAGASCA",
+      "visitor_browser": "Safari",
+      "visitor_device_type": "mobile",
+      "visitor_id": "e5df3e36-8aae-4bfc-bfe0-c91fb9230ecd",
+      "duration": 361,
+      "queue_wait_time": 1,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/e5df3e36-8aae-4bfc-bfe0-c91fb9230ecd"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/327cad32-c0fd-474b-b913-8932d29c08da/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/8472c1d0-2743-4b06-b4e6-a740c491ded6"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+          "name": "AFB Retail Service Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "1278b12f-e58e-4be8-aba5-bc508b05ed44",
+          "operator": { "id": "8472c1d0-2743-4b06-b4e6-a740c491ded6" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T22:16:07Z",
+          "duration": 361,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T22:22:07Z",
+          "end_reason": "operator_hung_up",
+          "requested_at": "2022-03-07T22:16:07Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+              "name": "AFB Retail Service Chat Bot"
+            }
+          ],
+          "queue_wait_time": 1,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "496e8b0b-9548-4064-8794-bfcedde7da49",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T22:13:40Z",
+      "visitor_name": "",
+      "visitor_browser": "Firefox",
+      "visitor_device_type": "mobile",
+      "visitor_id": "fbbf92f0-c7ef-4d89-9e87-a83c5cd59c76",
+      "duration": 205,
+      "queue_wait_time": 2,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/fbbf92f0-c7ef-4d89-9e87-a83c5cd59c76"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/496e8b0b-9548-4064-8794-bfcedde7da49/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/8472c1d0-2743-4b06-b4e6-a740c491ded6"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+          "name": "AFB Retail Service Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "acf9fa46-ed70-4d28-8847-a225e93c3b97",
+          "operator": { "id": "8472c1d0-2743-4b06-b4e6-a740c491ded6" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T22:13:40Z",
+          "duration": 205,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T22:17:05Z",
+          "end_reason": "visitor_left",
+          "requested_at": "2022-03-07T22:13:40Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+              "name": "AFB Retail Service Chat Bot"
+            }
+          ],
+          "queue_wait_time": 2,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "61f9fb50-a21a-4f02-b8ba-57494bb27ea0",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T22:13:08Z",
+      "visitor_name": "",
+      "visitor_browser": "Chrome",
+      "visitor_device_type": "desktop",
+      "visitor_id": "44bd7672-b8f2-49ee-a1f6-a38733430659",
+      "duration": 601,
+      "queue_wait_time": 20,
+      "audio_recording_urls": [
+        "https://api.salemove.com/sub_engagements/24105313/conference_recordings/3ee5c9b9-a0f6-4d03-8152-a752317fe72e.mp3"
+      ],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/44bd7672-b8f2-49ee-a1f6-a38733430659"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/61f9fb50-a21a-4f02-b8ba-57494bb27ea0/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/bfaa4748-affa-4e66-978e-5e6f86c1213a"
+        },
+        {
+          "href": "https://api.salemove.com/operators/a80e57a8-2412-406b-be89-cb3c9872500a"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "7e429764-d4c7-4390-82ca-3b397554fd3c",
+          "name": "AFB Retail Sales Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "3d019e26-efd3-4c2a-9f11-37c260abb01e",
+          "operator": { "id": "bfaa4748-affa-4e66-978e-5e6f86c1213a" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T22:14:10Z",
+          "duration": 559,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T22:23:29Z",
+          "end_reason": "operator_hung_up",
+          "requested_at": "2022-03-07T22:13:51Z",
+          "request_type": "transfer",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "2ac73627-d7a4-49f6-9e81-664c6327ff25",
+              "name": "AFB Deposits  - UBC Sales"
+            }
+          ],
+          "queue_wait_time": 19,
+          "request_source": null,
+          "highest_visitor_media_type": "audio",
+          "highest_operator_media_type": "audio"
+        },
+        {
+          "id": "15c6722c-0065-4786-94db-cfa9ee883b65",
+          "operator": { "id": "a80e57a8-2412-406b-be89-cb3c9872500a" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T22:13:08Z",
+          "duration": 42,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T22:13:50Z",
+          "end_reason": "transferred",
+          "requested_at": "2022-03-07T22:13:08Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "7e429764-d4c7-4390-82ca-3b397554fd3c",
+              "name": "AFB Retail Sales Chat Bot"
+            }
+          ],
+          "queue_wait_time": 1,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": true
+    },
+    {
+      "id": "f460cb03-73c9-4acf-91c7-71d40b9de98b",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T22:10:27Z",
+      "visitor_name": "",
+      "visitor_browser": "Chrome",
+      "visitor_device_type": "mobile",
+      "visitor_id": "0eaa806a-a04e-47e3-b887-d1b9687dfd0f",
+      "duration": 102,
+      "queue_wait_time": 1,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/0eaa806a-a04e-47e3-b887-d1b9687dfd0f"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/f460cb03-73c9-4acf-91c7-71d40b9de98b/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/a80e57a8-2412-406b-be89-cb3c9872500a"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "7e429764-d4c7-4390-82ca-3b397554fd3c",
+          "name": "AFB Retail Sales Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "f83050f9-84ce-4ed7-a3bc-93377bdb1098",
+          "operator": { "id": "a80e57a8-2412-406b-be89-cb3c9872500a" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T22:10:27Z",
+          "duration": 102,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T22:12:08Z",
+          "end_reason": "visitor_left",
+          "requested_at": "2022-03-07T22:10:26Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "7e429764-d4c7-4390-82ca-3b397554fd3c",
+              "name": "AFB Retail Sales Chat Bot"
+            }
+          ],
+          "queue_wait_time": 1,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "cdbddabc-8e58-4b96-99e9-bbb7fb6c8976",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T22:08:57Z",
+      "visitor_name": "ALVIN YAZZIE",
+      "visitor_browser": "Safari",
+      "visitor_device_type": "mobile",
+      "visitor_id": "efde87df-4f95-499c-a4bc-4a64cc7c9a63",
+      "duration": 4,
+      "queue_wait_time": 1,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/efde87df-4f95-499c-a4bc-4a64cc7c9a63"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/cdbddabc-8e58-4b96-99e9-bbb7fb6c8976/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/8472c1d0-2743-4b06-b4e6-a740c491ded6"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+          "name": "AFB Retail Service Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "26e6325f-cd2d-4905-919e-f0254c64d202",
+          "operator": { "id": "8472c1d0-2743-4b06-b4e6-a740c491ded6" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T22:08:57Z",
+          "duration": 4,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T22:09:01Z",
+          "end_reason": "visitor_hung_up",
+          "requested_at": "2022-03-07T22:08:57Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+              "name": "AFB Retail Service Chat Bot"
+            }
+          ],
+          "queue_wait_time": 1,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "e0306f2e-c189-41cd-9664-84461a7d207b",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T22:04:33Z",
+      "visitor_name": "Marquis Coleman",
+      "visitor_browser": "Safari",
+      "visitor_device_type": "mobile",
+      "visitor_id": "ba9d35f1-472e-4f12-be79-ec97c6d050ac",
+      "duration": 232,
+      "queue_wait_time": 21,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/ba9d35f1-472e-4f12-be79-ec97c6d050ac"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/e0306f2e-c189-41cd-9664-84461a7d207b/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/a4b6896d-a8ad-45f6-ae3e-0f78743a84cb"
+        },
+        {
+          "href": "https://api.salemove.com/operators/8472c1d0-2743-4b06-b4e6-a740c491ded6"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+          "name": "AFB Retail Service Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "b978f3e5-53e7-4577-88d0-0981ed33c992",
+          "operator": { "id": "a4b6896d-a8ad-45f6-ae3e-0f78743a84cb" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T22:05:27Z",
+          "duration": 199,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T22:08:47Z",
+          "end_reason": "visitor_left",
+          "requested_at": "2022-03-07T22:05:07Z",
+          "request_type": "transfer",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "e041698c-5556-4d4f-89d0-7f2bd2604234",
+              "name": "AFB Retail Service #1 and #2"
+            }
+          ],
+          "queue_wait_time": 21,
+          "request_source": null,
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        },
+        {
+          "id": "8c3524fd-8d7a-4a71-aef9-64976e96f01f",
+          "operator": { "id": "8472c1d0-2743-4b06-b4e6-a740c491ded6" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T22:04:33Z",
+          "duration": 33,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T22:05:06Z",
+          "end_reason": "transferred",
+          "requested_at": "2022-03-07T22:04:33Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+              "name": "AFB Retail Service Chat Bot"
+            }
+          ],
+          "queue_wait_time": 0,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "494730ea-fd1c-4ca9-8783-e13321f59e7c",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T21:57:04Z",
+      "visitor_name": "",
+      "visitor_browser": "Chrome",
+      "visitor_device_type": "mobile",
+      "visitor_id": "c77831ca-617b-4990-bfda-a3dc3314ef99",
+      "duration": 268,
+      "queue_wait_time": 13,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/c77831ca-617b-4990-bfda-a3dc3314ef99"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/494730ea-fd1c-4ca9-8783-e13321f59e7c/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/6e67e47a-c23b-4661-a155-d7ec5244f661"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "a8d79952-d96d-4587-b4f1-79241b94e6c3",
+          "name": "AFB Retail Sales #1"
+        }
+      ],
+      "legs": [
+        {
+          "id": "96d6fa12-1226-4676-8f8e-e1cad0041b0c",
+          "operator": { "id": "6e67e47a-c23b-4661-a155-d7ec5244f661" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T21:57:04Z",
+          "duration": 268,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T22:01:32Z",
+          "end_reason": "operator_hung_up",
+          "requested_at": "2022-03-07T21:56:54Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "a8d79952-d96d-4587-b4f1-79241b94e6c3",
+              "name": "AFB Retail Sales #1"
+            }
+          ],
+          "queue_wait_time": 13,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "cbeb8106-6e19-420f-a59a-c2737d787213",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T21:55:45Z",
+      "visitor_name": "MARTIN COLLINGTON",
+      "visitor_browser": "Safari",
+      "visitor_device_type": "mobile",
+      "visitor_id": "087a926d-df33-4cf9-80b2-83dfbd5867c3",
+      "duration": 603,
+      "queue_wait_time": 10,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/087a926d-df33-4cf9-80b2-83dfbd5867c3"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/cbeb8106-6e19-420f-a59a-c2737d787213/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/0071440b-0dd2-4f6d-8d73-43f96196f525"
+        },
+        {
+          "href": "https://api.salemove.com/operators/8472c1d0-2743-4b06-b4e6-a740c491ded6"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+          "name": "AFB Retail Service Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "2e68480d-7c83-4927-b9db-372c0f31c09c",
+          "operator": { "id": "0071440b-0dd2-4f6d-8d73-43f96196f525" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T21:56:48Z",
+          "duration": 551,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T22:05:59Z",
+          "end_reason": "operator_hung_up",
+          "requested_at": "2022-03-07T21:56:41Z",
+          "request_type": "transfer",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "e041698c-5556-4d4f-89d0-7f2bd2604234",
+              "name": "AFB Retail Service #1 and #2"
+            }
+          ],
+          "queue_wait_time": 9,
+          "request_source": null,
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        },
+        {
+          "id": "ed0bb34b-2c77-4ff3-9178-d79c034eff6c",
+          "operator": { "id": "8472c1d0-2743-4b06-b4e6-a740c491ded6" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T21:55:45Z",
+          "duration": 52,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T21:56:37Z",
+          "end_reason": "transferred",
+          "requested_at": "2022-03-07T21:55:45Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+              "name": "AFB Retail Service Chat Bot"
+            }
+          ],
+          "queue_wait_time": 1,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "33314f3f-9a38-4175-b99b-addd71b597f5",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T21:52:55Z",
+      "visitor_name": "",
+      "visitor_browser": "Chrome",
+      "visitor_device_type": "mobile",
+      "visitor_id": "c77831ca-617b-4990-bfda-a3dc3314ef99",
+      "duration": 166,
+      "queue_wait_time": 12,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/c77831ca-617b-4990-bfda-a3dc3314ef99"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/33314f3f-9a38-4175-b99b-addd71b597f5/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/f0e986f1-4002-4396-b4c2-5bc29c530feb"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "a8d79952-d96d-4587-b4f1-79241b94e6c3",
+          "name": "AFB Retail Sales #1"
+        }
+      ],
+      "legs": [
+        {
+          "id": "160578d7-a8ab-4ae1-9922-3a2096354be2",
+          "operator": { "id": "f0e986f1-4002-4396-b4c2-5bc29c530feb" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T21:52:55Z",
+          "duration": 166,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T21:55:42Z",
+          "end_reason": "visitor_left",
+          "requested_at": "2022-03-07T21:52:43Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "a8d79952-d96d-4587-b4f1-79241b94e6c3",
+              "name": "AFB Retail Sales #1"
+            }
+          ],
+          "queue_wait_time": 12,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "0833ecaa-dbe1-4e4e-858a-9b309e4862e7",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T21:52:09Z",
+      "visitor_name": "ROBERT LAJOIE",
+      "visitor_browser": "Chrome",
+      "visitor_device_type": "desktop",
+      "visitor_id": "a2cfb771-c571-4f5f-8bb5-b3894bdce712",
+      "duration": 1201,
+      "queue_wait_time": 4,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/a2cfb771-c571-4f5f-8bb5-b3894bdce712"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/0833ecaa-dbe1-4e4e-858a-9b309e4862e7/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/5e1bdaea-0cfc-47cc-bc2f-95556abc83ad"
+        },
+        {
+          "href": "https://api.salemove.com/operators/8472c1d0-2743-4b06-b4e6-a740c491ded6"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+          "name": "AFB Retail Service Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "ec5e6811-44fb-4e33-81d7-63c69fa53bc6",
+          "operator": { "id": "5e1bdaea-0cfc-47cc-bc2f-95556abc83ad" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T21:53:05Z",
+          "duration": 1149,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T22:12:13Z",
+          "end_reason": "visitor_left",
+          "requested_at": "2022-03-07T21:53:01Z",
+          "request_type": "transfer",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "e041698c-5556-4d4f-89d0-7f2bd2604234",
+              "name": "AFB Retail Service #1 and #2"
+            }
+          ],
+          "queue_wait_time": 3,
+          "request_source": null,
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        },
+        {
+          "id": "b3833721-cad4-43c5-b686-3864e2e12f48",
+          "operator": { "id": "8472c1d0-2743-4b06-b4e6-a740c491ded6" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T21:52:09Z",
+          "duration": 52,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T21:53:01Z",
+          "end_reason": "transferred",
+          "requested_at": "2022-03-07T21:52:09Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+              "name": "AFB Retail Service Chat Bot"
+            }
+          ],
+          "queue_wait_time": 1,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "87c1cf7c-72c4-425f-a644-6cfae6c01977",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T21:43:40Z",
+      "visitor_name": "ROBERT LAJOIE",
+      "visitor_browser": "Chrome",
+      "visitor_device_type": "desktop",
+      "visitor_id": "a2cfb771-c571-4f5f-8bb5-b3894bdce712",
+      "duration": 453,
+      "queue_wait_time": 14,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/a2cfb771-c571-4f5f-8bb5-b3894bdce712"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/87c1cf7c-72c4-425f-a644-6cfae6c01977/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/73922c19-de20-43b0-9ad9-ba97a75641ff"
+        },
+        {
+          "href": "https://api.salemove.com/operators/8472c1d0-2743-4b06-b4e6-a740c491ded6"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+          "name": "AFB Retail Service Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "c405aa3c-686c-49ff-908f-302a65b02fa6",
+          "operator": { "id": "73922c19-de20-43b0-9ad9-ba97a75641ff" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T21:45:25Z",
+          "duration": 360,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T21:51:25Z",
+          "end_reason": "operator_hung_up",
+          "requested_at": "2022-03-07T21:45:15Z",
+          "request_type": "transfer",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "e041698c-5556-4d4f-89d0-7f2bd2604234",
+              "name": "AFB Retail Service #1 and #2"
+            }
+          ],
+          "queue_wait_time": 12,
+          "request_source": null,
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        },
+        {
+          "id": "c61fc4d3-6929-47d3-8f2b-693421e88a3d",
+          "operator": { "id": "8472c1d0-2743-4b06-b4e6-a740c491ded6" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T21:43:40Z",
+          "duration": 93,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T21:45:13Z",
+          "end_reason": "transferred",
+          "requested_at": "2022-03-07T21:43:40Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+              "name": "AFB Retail Service Chat Bot"
+            }
+          ],
+          "queue_wait_time": 2,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "bd9ad40a-9749-400b-9b85-031e6f6b4f86",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T21:43:18Z",
+      "visitor_name": "ETHAN STICK",
+      "visitor_browser": "Safari",
+      "visitor_device_type": "mobile",
+      "visitor_id": "2c0b09ec-df3b-42e8-8920-d80eaccbe673",
+      "duration": 129,
+      "queue_wait_time": 1,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/2c0b09ec-df3b-42e8-8920-d80eaccbe673"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/bd9ad40a-9749-400b-9b85-031e6f6b4f86/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/8472c1d0-2743-4b06-b4e6-a740c491ded6"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+          "name": "AFB Retail Service Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "8a9e88c2-af88-4bfb-a647-537cba28b908",
+          "operator": { "id": "8472c1d0-2743-4b06-b4e6-a740c491ded6" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T21:43:18Z",
+          "duration": 129,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T21:45:27Z",
+          "end_reason": "visitor_left",
+          "requested_at": "2022-03-07T21:43:18Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+              "name": "AFB Retail Service Chat Bot"
+            }
+          ],
+          "queue_wait_time": 1,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "91473d87-ba5a-466f-8fc1-1e3a1486ebfa",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T21:41:24Z",
+      "visitor_name": "MARK PARKER",
+      "visitor_browser": "Safari",
+      "visitor_device_type": "desktop",
+      "visitor_id": "8c97e1cc-8a8b-4079-9525-968ac7488dbc",
+      "duration": 1682,
+      "queue_wait_time": 13,
+      "audio_recording_urls": [
+        "https://api.salemove.com/sub_engagements/24103297/conference_recordings/8e197e77-4545-4562-8a6a-2bb8c8c785ac.mp3"
+      ],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/8c97e1cc-8a8b-4079-9525-968ac7488dbc"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/91473d87-ba5a-466f-8fc1-1e3a1486ebfa/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/39008476-7237-4174-8cd3-ec1300d514b3"
+        },
+        {
+          "href": "https://api.salemove.com/operators/8472c1d0-2743-4b06-b4e6-a740c491ded6"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+          "name": "AFB Retail Service Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "d9fa4e01-0369-4cc8-9056-d5856ec60952",
+          "operator": { "id": "39008476-7237-4174-8cd3-ec1300d514b3" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T21:43:23Z",
+          "duration": 1575,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T22:09:38Z",
+          "end_reason": "visitor_left",
+          "requested_at": "2022-03-07T21:43:13Z",
+          "request_type": "transfer",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "e041698c-5556-4d4f-89d0-7f2bd2604234",
+              "name": "AFB Retail Service #1 and #2"
+            }
+          ],
+          "queue_wait_time": 11,
+          "request_source": null,
+          "highest_visitor_media_type": "audio",
+          "highest_operator_media_type": "audio"
+        },
+        {
+          "id": "39c492c8-215c-4710-aed8-c823288bb0ea",
+          "operator": { "id": "8472c1d0-2743-4b06-b4e6-a740c491ded6" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T21:41:24Z",
+          "duration": 107,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T21:43:11Z",
+          "end_reason": "transferred",
+          "requested_at": "2022-03-07T21:41:24Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+              "name": "AFB Retail Service Chat Bot"
+            }
+          ],
+          "queue_wait_time": 2,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": true
+    },
+    {
+      "id": "4d8e1182-e6c4-4dd3-ac3f-2debf57499da",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T21:41:08Z",
+      "visitor_name": "CARLEE HUBBARD",
+      "visitor_browser": "Edge",
+      "visitor_device_type": "desktop",
+      "visitor_id": "03b30ef1-322f-4699-9367-1e885fd9c432",
+      "duration": 2756,
+      "queue_wait_time": 25,
+      "audio_recording_urls": [],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/03b30ef1-322f-4699-9367-1e885fd9c432"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/4d8e1182-e6c4-4dd3-ac3f-2debf57499da/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/ad411897-69f0-4e3f-b2ff-cf1fc3865595"
+        },
+        {
+          "href": "https://api.salemove.com/operators/8472c1d0-2743-4b06-b4e6-a740c491ded6"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+          "name": "AFB Retail Service Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "5e44c768-d9a5-4b61-8385-39b9ec0ad45a",
+          "operator": { "id": "ad411897-69f0-4e3f-b2ff-cf1fc3865595" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T21:42:02Z",
+          "duration": 2728,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T22:27:30Z",
+          "end_reason": "visitor_hung_up",
+          "requested_at": "2022-03-07T21:41:37Z",
+          "request_type": "transfer",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "e041698c-5556-4d4f-89d0-7f2bd2604234",
+              "name": "AFB Retail Service #1 and #2"
+            }
+          ],
+          "queue_wait_time": 25,
+          "request_source": null,
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        },
+        {
+          "id": "0686f844-bc27-447d-831e-f761389768bc",
+          "operator": { "id": "8472c1d0-2743-4b06-b4e6-a740c491ded6" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T21:41:08Z",
+          "duration": 28,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T21:41:36Z",
+          "end_reason": "transferred",
+          "requested_at": "2022-03-07T21:41:08Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "976325a3-ed21-4e2d-8085-f00f1029145a",
+              "name": "AFB Retail Service Chat Bot"
+            }
+          ],
+          "queue_wait_time": 0,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": false
+    },
+    {
+      "id": "71dc9a32-6835-4535-92c1-073da61c33ca",
+      "engagement_type": "reactive",
+      "created_at": "2022-03-07T21:40:57Z",
+      "visitor_name": "",
+      "visitor_browser": "Safari",
+      "visitor_device_type": "mobile",
+      "visitor_id": "24a6eff2-8ef1-42b2-89e1-293edec7868e",
+      "duration": 1006,
+      "queue_wait_time": 116,
+      "audio_recording_urls": [
+        "https://api.salemove.com/sub_engagements/24103347/conference_recordings/f515c66f-a34a-4313-b379-63c4b2228fa8.mp3"
+      ],
+      "flagged": false,
+      "crm_forwarded": true,
+      "summary_forwarded": false,
+      "platform": "omnicore",
+      "visitor": {
+        "href": "https://api.salemove.com/sites/28d7ca95-c2be-435b-a234-218b177ed615/visitors/24a6eff2-8ef1-42b2-89e1-293edec7868e"
+      },
+      "chat_transcript": {
+        "href": "https://api.salemove.com/engagements/71dc9a32-6835-4535-92c1-073da61c33ca/chat_transcript"
+      },
+      "operators": [
+        {
+          "href": "https://api.salemove.com/operators/9dcbd2cf-7f6e-40eb-ab62-dd23435d7e5c"
+        },
+        {
+          "href": "https://api.salemove.com/operators/a80e57a8-2412-406b-be89-cb3c9872500a"
+        }
+      ],
+      "source": "tab",
+      "queues": [
+        {
+          "id": "7e429764-d4c7-4390-82ca-3b397554fd3c",
+          "name": "AFB Retail Sales Chat Bot"
+        }
+      ],
+      "legs": [
+        {
+          "id": "5c3458b0-23c1-45bf-bb76-165ab425b5f2",
+          "operator": { "id": "9dcbd2cf-7f6e-40eb-ab62-dd23435d7e5c" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T21:43:48Z",
+          "duration": 951,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T21:59:39Z",
+          "end_reason": "operator_hung_up",
+          "requested_at": "2022-03-07T21:43:42Z",
+          "request_type": "transfer",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "2ac73627-d7a4-49f6-9e81-664c6327ff25",
+              "name": "AFB Deposits  - UBC Sales"
+            }
+          ],
+          "queue_wait_time": 115,
+          "request_source": null,
+          "highest_visitor_media_type": "audio",
+          "highest_operator_media_type": "audio"
+        },
+        {
+          "id": "e0baccd6-fa51-4991-a271-51be1ac9a08f",
+          "operator": { "id": "a80e57a8-2412-406b-be89-cb3c9872500a" },
+          "guests": [],
+          "site": { "id": "28d7ca95-c2be-435b-a234-218b177ed615" },
+          "accepted_at": "2022-03-07T21:40:57Z",
+          "duration": 55,
+          "used_cobrowsing": false,
+          "ended_at": "2022-03-07T21:41:53Z",
+          "end_reason": "transferred",
+          "requested_at": "2022-03-07T21:40:57Z",
+          "request_type": "reactive",
+          "offered_media_type": "text",
+          "accepted_media_type": "text",
+          "request_queues": [
+            {
+              "id": "7e429764-d4c7-4390-82ca-3b397554fd3c",
+              "name": "AFB Retail Sales Chat Bot"
+            }
+          ],
+          "queue_wait_time": 1,
+          "request_source": "tab",
+          "highest_visitor_media_type": "text",
+          "highest_operator_media_type": "text"
+        }
+      ],
+      "cobrowsing_used": false,
+      "video_used": false,
+      "audio_used": true
+    }
+  ]
+}
